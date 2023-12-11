@@ -1,0 +1,66 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  padding: 0.25rem;
+  margin-top: 1rem;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navbar-menu ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu ul li {
+  font-size: 1.1rem;
+  padding-inline: 1rem;
+}
+
+.navbar-login {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-login > * {
+  margin-inline: 10px;
+}
+
+.login-icon-item {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.login-join-class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid grey;
+  border-radius: 5%;
+}
+
+.login-join-class h1 {
+  margin: 0.7rem;
+  font-size: 0.9rem;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 1px;
+}
+
+.login-plus {
+  background-color: red;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  border-radius: 5%;
+}

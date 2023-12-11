@@ -1,9 +1,10 @@
-
+import "./App.css"
+import Navbar from "./components/navbar/navbar";
 
 function App() {
   return (
   <div className="main-wrapper">
-    <section>navbar</section>
+    <Navbar />
     <section>title</section>
     <section>introduce</section>
     <section>classes</section>
