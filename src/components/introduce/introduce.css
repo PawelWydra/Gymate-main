@@ -55,19 +55,19 @@
   display: flex;
   justify-content:space-between;
   align-items: center;
-  margin-top: 25rem;
+  margin-top: 30rem;
 }
 .info-text-container {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 65%;
+  width: 50%;
 }
 
 .info-text-container h3 {
   position: absolute;
-  top: -3.5rem;
+  top: -4.5rem;
   left: 2rem;
   z-index: 1;
   color: #fff;
@@ -133,7 +133,7 @@
 
 .info-image {
     position: absolute;
-    top: -3.7rem;
+    top: -4.7rem;
     left: 0rem;
     height: 4rem;
     width: 12rem;
