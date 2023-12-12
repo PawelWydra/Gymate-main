@@ -5,6 +5,7 @@ import { TbListCheck } from "react-icons/tb";
 import weightLifter from "../../images/who-we-are/weightlifter.png";
 import equipment from "../../images/who-we-are/equpments.png";
 import machines from "../../images/who-we-are/gym.png";
+import titleImage from "../../images/choose-us/title-bg.svg"
 
 function Introduce() {
   return (
@@ -36,8 +37,8 @@ function Introduce() {
         </div>
       </div>
       <div className="introduce-info-container">
-        <div className="info-item">
-          <h3>WHO WE ARE</h3>
+        <div className="info-text-container">
+        <h3>WHO WE ARE</h3>
           <h1>Take Your Health And Body To Next Level</h1>
           <p>
             Take your health and body to the next level with our comprehensive
@@ -46,18 +47,28 @@ function Introduce() {
           <div className="introduce-icon-container">
             <div className="introduce-icon">
               <img src={weightLifter} alt="Weight Lifter" />
-              <h2>PROFESSIONAL TRAINERS</h2>
+              <h2>
+                PROFESSIONAL
+                <br /> TRAINERS
+              </h2>
             </div>
-            <div className="introduce-icon">
+            <div className="introduce-icon icon-border">
               <img src={equipment} alt="Equipment" />
-              <h2>MODERN EQUIPMENTS</h2>
+              <h2>
+                MODERN <br />
+                EQUIPMENTS
+              </h2>
             </div>
             <div className="introduce-icon">
               <img src={machines} alt="Machines" />
-              <h2>FANCY GYM MACHINES</h2>
+              <h2>
+                FANCY GYM
+                <br /> MACHINES
+              </h2>
             </div>
           </div>
-          <button></button>
+          <button className="introduce-btn">TAKE A TOUR</button>
+          <img src={titleImage} alt="Title" className="info-image"/>
         </div>
         <div className="info-image-container">
           <img src="" alt="" />

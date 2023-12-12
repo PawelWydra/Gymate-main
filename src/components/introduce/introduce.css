@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   color: black;
+  padding-bottom: 3rem;
 }
 
 .introduce-container > div {
@@ -35,7 +36,6 @@
   padding: 1rem;
   box-shadow: -6px 23px 71px -40px rgba(66, 68, 90, 1);
   border-radius: 3rem 0;
-
 }
 
 .introduce-card h1 {
@@ -49,4 +49,92 @@
 .introduce-card-icon {
   font-size: 5rem;
   color: red;
+}
+
+.introduce-info-container {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 25rem;
+}
+.info-text-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.info-text-container h3 {
+  position: absolute;
+  top: -3.5rem;
+  left: 2rem;
+  z-index: 1;
+  color: #fff;
+}
+
+.info-text-container h1{
+  margin: 0;
+  font-size: 2.5rem ;
+}
+.info-text-container p{
+  position: relative;
+  font-size: 1rem;
+  opacity: 0.7;
+  letter-spacing: 0.7px;
+}
+
+.introduce-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.introduce-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  white-space: no-wrap;
+  width: 25%;
+}
+
+.icon-border {
+  border-left: 2px solid rgba(0, 0, 0, 0.147);
+  border-right: 2px solid rgba(0, 0, 0, 0.147);
+}
+
+.introduce-icon img {
+  width: 4rem;
+  aspect-ratio: 1/1;
+}
+
+
+.introduce-icon h2 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.75rem;
+}
+
+.introduce-btn {
+  width: 12rem;
+  aspect-ratio: 1/0.25;
+  background-color: rgb(79, 69, 69);
+  padding: 1rem 0;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.info-image {
+    position: absolute;
+    top: -3.7rem;
+    left: 0rem;
+    height: 4rem;
+    width: 12rem;
 }
