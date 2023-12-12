@@ -1,0 +1,72 @@
+.title-container {
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+  background-image: url("../../images/hero/hero-img.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  margin-right: 3rem;
+}
+.title-item {
+  position: relative;
+  font-size: 1.5rem;
+}
+.title-item p {
+  position: absolute;
+  left: 2rem;
+  top: -3.5rem;
+  font-size: 1.2rem;
+  z-index: 1;
+  color: black;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+
+.title-image {
+  position: absolute;
+  top: -3.3rem;
+  left: 0rem;
+  height: 3rem;
+  width: 15rem;
+  -webkit-filter: brightness(0) invert(1);
+}
+
+.title-btn {
+  height: 4rem;
+  aspect-ratio: 3.5/1;
+  margin-top: 1rem;
+  background-color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.title-social {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 1rem;
+}
+
+.red-line {
+  width: 0.25rem;
+  aspect-ratio: 1/10;
+  background-color: red;
+  margin: 0.5rem 0;
+}
+
+.vericaltext {
+  font-weight: 700;
+  transform: rotate(270deg);
+}
