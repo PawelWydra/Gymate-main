@@ -1,4 +1,5 @@
 import "./app.css";
+import Introduce from "./components/introduce/introduce.jsx";
 import Navbar from "./components/navbar/navbar.jsx";
 import Title from "./components/title/title.jsx";
 
@@ -7,7 +8,7 @@ function App() {
     <div className="main-wrapper">
       <Navbar />
       <Title />
-      <section>introduce</section>
+      <Introduce />
       <section>classes</section>
       <section>join div</section>
       <section>choose us</section>
