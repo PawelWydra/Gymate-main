@@ -53,7 +53,7 @@
 
 .introduce-info-container {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   margin-top: 30rem;
 }
@@ -63,6 +63,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
+  min-width: 25rem;
 }
 
 .info-text-container h3 {
@@ -73,11 +74,11 @@
   color: #fff;
 }
 
-.info-text-container h1{
+.info-text-container h1 {
   margin: 0;
-  font-size: 2.5rem ;
+  font-size: 2.5rem;
 }
-.info-text-container p{
+.info-text-container p {
   position: relative;
   font-size: 1rem;
   opacity: 0.7;
@@ -113,7 +114,6 @@
   aspect-ratio: 1/1;
 }
 
-
 .introduce-icon h2 {
   font-weight: 700;
   font-size: 1.3rem;
@@ -132,9 +132,45 @@
 }
 
 .info-image {
-    position: absolute;
-    top: -4.7rem;
-    left: 0rem;
-    height: 4rem;
-    width: 12rem;
+  position: absolute;
+  top: -4.7rem;
+  left: 0rem;
+  height: 4rem;
+  width: 12rem;
+}
+
+.info-image-container {
+  position: relative;
+  width: 30%;
+}
+
+.info-image-container > img {
+  position: absolute;
+}
+.girl-img {
+  height: 31rem;
+  width: 28rem;
+  bottom: -12rem;
+  right: -9rem;
+  z-index: 1;
+}
+.girl-bg-img {
+  height: 31rem;
+  min-width: 15rem;
+  bottom: -12rem;
+  right: -6rem;
+}
+
+.girl-sidetext-img {
+  height: 25rem;
+  min-height: 15rem;
+  bottom: -8rem;
+  right: 14rem;
+  z-index: 2;
+}
+
+.wind-img {
+  height: 5rem;
+  right: 0rem;
+  top: -7rem;
 }

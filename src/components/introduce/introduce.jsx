@@ -5,7 +5,11 @@ import { TbListCheck } from "react-icons/tb";
 import weightLifter from "../../images/who-we-are/weightlifter.png";
 import equipment from "../../images/who-we-are/equpments.png";
 import machines from "../../images/who-we-are/gym.png";
-import titleImage from "../../images/choose-us/title-bg.svg"
+import titleImage from "../../images/choose-us/title-bg.svg";
+import girl from "../../images/who-we-are/girl-run.png";
+import girlBackground from "../../images/who-we-are/girl-redbg.svg";
+import girlSideText from "../../images/who-we-are/girl-side-text.png";
+import girlWind from "../../images/who-we-are/wind.png";
 
 function Introduce() {
   return (
@@ -38,7 +42,7 @@ function Introduce() {
       </div>
       <div className="introduce-info-container">
         <div className="info-text-container">
-        <h3>WHO WE ARE</h3>
+          <h3>WHO WE ARE</h3>
           <h1>Take Your Health And Body To Next Level</h1>
           <p>
             Take your health and body to the next level with our comprehensive
@@ -68,12 +72,13 @@ function Introduce() {
             </div>
           </div>
           <button className="introduce-btn">TAKE A TOUR</button>
-          <img src={titleImage} alt="Title" className="info-image"/>
+          <img src={titleImage} alt="Title" className="info-image" />
         </div>
         <div className="info-image-container">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <img src={girl} alt="Girl running" className="girl-img" />
+          <img src={girlBackground} alt="" className="girl-bg-img"/>
+          <img src={girlSideText} alt="" className="girl-sidetext-img" />
+          <img src={girlWind} alt="" className="wind-img"/>
         </div>
       </div>
     </div>

@@ -21,6 +21,7 @@
 .title-item {
   position: relative;
   font-size: 1.5rem;
+  text-wrap: nowrap;
 }
 .title-item p {
   position: absolute;
