@@ -141,7 +141,7 @@
 
 .info-image-container {
   position: relative;
-  width: 30%;
+  flex-grow: 2;
 }
 
 .info-image-container > img {
