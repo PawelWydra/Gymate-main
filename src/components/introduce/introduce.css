@@ -156,15 +156,13 @@
   z-index: 1;
 }
 .girl-bg-img {
-  height: 31rem;
-  min-width: 15rem;
+  max-height: 31rem;
   bottom: -12rem;
   right: -6rem;
 }
 
 .girl-sidetext-img {
-  height: 25rem;
-  min-height: 15rem;
+  max-height: 25rem;
   bottom: -8rem;
   right: 14rem;
   z-index: 2;
