@@ -1,4 +1,5 @@
 import "./app.css";
+import Classes from "./components/classes/classes";
 import Introduce from "./components/introduce/introduce.jsx";
 import Navbar from "./components/navbar/navbar.jsx";
 import Title from "./components/title/title.jsx";
@@ -9,7 +10,7 @@ function App() {
       <Navbar />
       <Title />
       <Introduce />
-      <section>classes</section>
+      <Classes />
       <section>join div</section>
       <section>choose us</section>
       <section>trainers</section>
