@@ -3,11 +3,31 @@ p {
   padding: 0;
 }
 
-h1, h2,h3, h4, h5, h6 {}
-
 .image-item-wrapper {
   position: relative;
   color: #fff;
+  overflow: hidden;
+}
+
+.classes-icon-container {
+  position: absolute;
+  top: 5.5rem;
+  left: -5rem;
+  background-color: #fff;
+  width: 8rem;
+  height: 4.5rem;
+  border-radius: 0 50% 50% 0 / 50% 100% 100% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-inline: 1rem;
+  transform: rotate(25deg);
+}
+
+.classes-icon-container img {
+  height: 2.5rem;
+  aspect-ratio: 1/1;
+  transform: rotate(-25deg);
 }
 
 .classes-image-item {
@@ -32,4 +52,3 @@ h1, h2,h3, h4, h5, h6 {}
   font-size: 0.9rem;
   padding: 0.5rem;
 }
-
