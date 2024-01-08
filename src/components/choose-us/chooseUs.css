@@ -9,9 +9,10 @@
 .chooseUs-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 80%;
   min-width: 65vw;
+  max-width: 80vw;
 }
 
 .chooseUs-image-container {
@@ -55,13 +56,35 @@
 
 .image-play-btn {
   position: absolute;
-  bottom: 50%;
-  left: 45%;
-  width: 4rem;
-  height: 4rem;
+  bottom: 20rem;
+  left: 17rem;
+  width: 4.5rem;
+  height: 4.5rem;
   color: white;
   background-color: red;
   border-radius: 100%;
   border: none;
   cursor: pointer;
+}
+
+.chooseUs-info-container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.chooseUs-info-container h1 {
+    font-size: 2.5rem;
+}
+.chooseUs-info-container h2 {
+    font-size: 1.2rem;
+}
+
+.chooseUs-info-container p {
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+    max-width: 90%;
+    opacity: 0.7;
 }
