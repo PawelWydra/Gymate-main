@@ -9,7 +9,7 @@
 }
 
 .classes-container {
-  width: 65vw;
+  min-width: 55vw;
 }
 
 .classes-container h1 {
