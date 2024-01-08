@@ -1,4 +1,5 @@
 import "./app.css";
+import ChooseUs from "./components/choose-us/chooseUs";
 import Classes from "./components/classes/classes";
 import Introduce from "./components/introduce/introduce.jsx";
 import Join from "./components/join/join";
@@ -13,7 +14,7 @@ function App() {
       <Introduce />
       <Classes />
       <Join />
-      <section>choose us</section>
+      <ChooseUs />
       <section>trainers</section>
       <section>TESTIMONIALS</section>
       <section>GALLERY</section>
