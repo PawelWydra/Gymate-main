@@ -1,5 +1,4 @@
 import "./grid-item.css";
-import bike from "../../../images/features/bike-red.png"
 
 function GridItem(props) {
   const { backgroundImage } = props;
@@ -12,7 +11,7 @@ function GridItem(props) {
     <div className="image-item-wrapper">
       <div style={containerStyle} className="classes-image-item"></div>
       <div className="classes-icon-container">
-        <img src={bike} alt="" />
+        <img src={props.icon} alt="" />
       </div>
       <div className="classes-description-container">
         <h2>{props.activity}</h2>

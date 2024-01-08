@@ -14,13 +14,14 @@ function Classes() {
         <h1>We Are Offering Best Flexible Classes</h1>
         <div className="classes-image-grid">
           {Object.keys(gridItems).map((key, index) => {
-            const { name, schedule, image } = gridItems[key];
+            const { name, schedule, image, icon } = gridItems[key];
             return (
               <GridItem
                 key={index}
                 activity={name}
                 time={schedule}
                 backgroundImage={image}
+                icon={icon}
               />
             );
           })}
