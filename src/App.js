@@ -1,6 +1,7 @@
 import "./app.css";
 import Classes from "./components/classes/classes";
 import Introduce from "./components/introduce/introduce.jsx";
+import Join from "./components/join/join";
 import Navbar from "./components/navbar/navbar.jsx";
 import Title from "./components/title/title.jsx";
 
@@ -11,7 +12,7 @@ function App() {
       <Title />
       <Introduce />
       <Classes />
-      <section>join div</section>
+      <Join />
       <section>choose us</section>
       <section>trainers</section>
       <section>TESTIMONIALS</section>
