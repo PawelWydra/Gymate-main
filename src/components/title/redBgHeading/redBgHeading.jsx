@@ -1,5 +1,4 @@
 import "./redBgHeadin.css";
-import "../../../images/choose-us/choose-bg.jpg";
 
 function RedBgHeading(props) {
   return (

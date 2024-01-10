@@ -1,11 +1,12 @@
 import "./trainers.css";
 import TrainerCard from "./trainerCard/trainerCard.jsx";
+import RedBgHeading from "../title/redBgHeading/redBgHeading";
 
 function Trainers() {
   return (
     <div className="trainers-container">
       <div className="trainers-wrapper">
-        <h3>GYM TRAINERS</h3>
+        <RedBgHeading text={"GYM TRAINERS"} />
         <h1>Team Of Expert Coaches</h1>
         <p>
           Expert team of coaches helps you succeed in any goal, personalized

@@ -4,6 +4,7 @@ import mainImg from "../../images/choose-us/main-img.png";
 import ChooseUsGridItem from "./chooseUsGridItem/chooseUsGridItem";
 import redBg from "../../images/choose-us/title-bg.svg";
 import fitnessObjects from "./gridData.jsx";
+import RedBgHeading from "../title/redBgHeading/redBgHeading";
 
 function ChooseUs() {
   return (
@@ -16,8 +17,7 @@ function ChooseUs() {
           <FaCirclePlay className="image-play-btn" />
         </div>
         <div className="chooseUs-info-container">
-          <img src={redBg} alt="red background" className="chooseUs-redBg" />
-          <h2>WHY CHOOSE US</h2>
+          <RedBgHeading text={"WHY CHOOSE US"} />
           <h1>
             We Can Give A Shape Of <br /> Your Body Here!
           </h1>
@@ -36,9 +36,7 @@ function ChooseUs() {
               />
             ))}
           </div>
-          <button className="chooseUs-btn">
-          JOIN WITH US 
-        </button>
+          <button className="chooseUs-btn">JOIN WITH US</button>
         </div>
       </div>
     </div>

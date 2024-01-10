@@ -4,11 +4,14 @@
   background-image: url("../../../images/choose-us/title-bg.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
-  width: 15rem;
+  background-position: 100%;
+  max-width: 18rem;
+  padding: 0.5rem 2rem;
+  color: #fff;
 }
 
 .red-bg-heading-container h1 {
-  font-size: 1rem;
+  font-size: 1.2rem !important;
   font-weight: 700;
+  margin: 0;
 }

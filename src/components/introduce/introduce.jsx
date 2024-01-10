@@ -10,6 +10,7 @@ import girl from "../../images/who-we-are/girl-run.png";
 import girlBackground from "../../images/who-we-are/girl-redbg.svg";
 import girlSideText from "../../images/who-we-are/girl-side-text.png";
 import girlWind from "../../images/who-we-are/wind.png";
+import RedBgHeading from "../title/redBgHeading/redBgHeading";
 
 function Introduce() {
   return (
@@ -43,8 +44,8 @@ function Introduce() {
       <article className="introduce-info-container">
         <div className="info-text-container">
           <header>
-            <h3>WHO WE ARE</h3>
-            <h1>Take Your Health And Body To The Next Level</h1>
+            <RedBgHeading text={"WHO WE ARE"}/>
+            <h1 className="introduce-heading">Take Your Health And Body To The Next Level</h1>
           </header>
           <p>
             Take your health and body to the next level with our comprehensive
@@ -76,7 +77,6 @@ function Introduce() {
           <button className="introduce-btn" aria-label="Take a Tour">
             TAKE A TOUR
           </button>
-          <img src={titleImage} alt="Title" className="info-image" />
         </div>
         <div className="info-image-container">
           <img src={girl} alt="Girl running" className="girl-img" />

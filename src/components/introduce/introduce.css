@@ -69,16 +69,8 @@
   min-width: 25rem;
 }
 
-.info-text-container h3 {
-  position: absolute;
-  top: -4.5rem;
-  left: 2rem;
-  z-index: 1;
-  color: #fff;
-}
-
-.info-text-container h1 {
-  margin: 0;
+.introduce-heading {
+  margin: 1rem;
   font-size: 2.5rem;
 }
 .info-text-container p {
@@ -134,13 +126,6 @@
   text-align: center;
 }
 
-.info-image {
-  position: absolute;
-  top: -4.7rem;
-  left: 0rem;
-  height: 4rem;
-  width: 12rem;
-}
 
 .info-image-container {
   position: relative;
