@@ -3,14 +3,14 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { RiTwitterXLine } from "react-icons/ri";
 import titleImage from "../../images/choose-us/title-bg.svg"
+import RedBgHeading from "./redBgHeading/redBgHeading";
 
 function Title() {
   return (
     <div className="title-container">
       <div className="title-content">
         <div className="title-item">
-          <p>FIND YOUR ENERGY</p>
-          <img src={titleImage} alt="" className="title-image" />
+          <RedBgHeading  text={"FIND YOUR ENERGY"}/>
           <h1>
             MAKE YOUR BODY
             <br />

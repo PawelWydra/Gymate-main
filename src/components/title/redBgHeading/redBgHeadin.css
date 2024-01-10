@@ -1,0 +1,14 @@
+.red-bg-heading-container {
+  display: grid;
+  place-items: center;
+  background-image: url("../../../images/choose-us/title-bg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15rem;
+}
+
+.red-bg-heading-container h1 {
+  font-size: 1rem;
+  font-weight: 700;
+}
