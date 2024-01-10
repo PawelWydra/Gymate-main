@@ -2,6 +2,8 @@ import "./chooseUs.css";
 import { FaCirclePlay } from "react-icons/fa6";
 import mainImg from "../../images/choose-us/main-img.png";
 import ChooseUsGridItem from "./chooseUsGridItem/chooseUsGridItem";
+import redBg from "../../images/choose-us/title-bg.svg";
+import fitnessObjects from "./gridData.jsx";
 
 function ChooseUs() {
   return (
@@ -14,19 +16,29 @@ function ChooseUs() {
           <FaCirclePlay className="image-play-btn" />
         </div>
         <div className="chooseUs-info-container">
+          <img src={redBg} alt="red background" className="chooseUs-redBg" />
           <h2>WHY CHOOSE US</h2>
           <h1>
             We Can Give A Shape Of <br /> Your Body Here!
           </h1>
           <p>
-            At <strong>Gymate</strong>, we are dedicated to helping you achieve the body of your
-            dreams. Our expert trainers and nutritionists will work with you to
-            create a personalized fitness and nutrition plan that helps you
-            reach your specific goals.
+            At <strong>Gymate</strong>, we are dedicated to helping you achieve
+            the body of your dreams. Our expert trainers and nutritionists will
+            work with you to create a personalized fitness and nutrition plan
+            that helps you reach your specific goals.
           </p>
           <div className="chooseUs-grid-container">
-            <ChooseUsGridItem />
+            {Object.values(fitnessObjects).map((item, index) => (
+              <ChooseUsGridItem
+                key={index}
+                icon={item.icon}
+                description={item.description}
+              />
+            ))}
           </div>
+          <button className="chooseUs-btn">
+          JOIN WITH US 
+        </button>
         </div>
       </div>
     </div>

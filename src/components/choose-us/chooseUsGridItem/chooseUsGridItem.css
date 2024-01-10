@@ -1,0 +1,19 @@
+.chooseUs-grid-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.chooseUs-icon-container {
+  padding: 0.75rem;
+  background-color: rgba(128, 128, 128, 0.185);
+  border-radius: 50%;
+}
+
+.chooseUs-icon-container:hover {
+  background-color: red;
+}
+
+.chooseUs-icon-container img {
+  width: 3rem;
+}

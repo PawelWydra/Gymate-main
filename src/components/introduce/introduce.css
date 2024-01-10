@@ -13,10 +13,6 @@
 }
 
 .introduce-card-container {
-  width: 65vw;
-}
-
-.introduce-card-container {
   position: absolute;
   top: -3rem;
   display: flex;
@@ -27,8 +23,8 @@
 
 .introduce-card {
   background-color: #fff;
-  height: 20rem;
-  width: 30%;
+  max-height: 17rem;
+  aspect-ratio: 1.2/1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,6 +32,11 @@
   padding: 1rem;
   box-shadow: -6px 23px 71px -40px rgba(66, 68, 90, 1);
   border-radius: 3rem 0;
+}
+
+.introduce-card:hover {
+  background-image: url("../../images/who-we-are/info-card-bg.jpg");
+  color: #fff;
 }
 
 .introduce-card h1 {
@@ -53,16 +54,17 @@
 
 .introduce-info-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 30rem;
-  max-width: 80vw;
+  margin-top: 25rem;
+  width: 80rem;
 }
 .info-text-container {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 1rem;
   width: 50%;
   min-width: 25rem;
 }
@@ -142,8 +144,7 @@
 
 .info-image-container {
   position: relative;
-  flex-grow: 2;
-  left: -10rem;
+  width: 18rem;
 }
 
 .info-image-container > img {
@@ -153,24 +154,24 @@
   height: 31rem;
   width: 25rem;
   bottom: -12rem;
-  right: -12rem;
+  right: -4rem;
   z-index: 1;
 }
 .girl-bg-img {
   max-height: 31rem;
   bottom: -12rem;
-  right: -11rem;
+  right: -3rem;
 }
 
 .girl-sidetext-img {
-  max-height: 30rem;
-  bottom: -12rem;
-  right: 14rem;
+  height: 35rem;
+  bottom: -15rem;
+  right: 22rem;
   z-index: 2;
 }
 
 .wind-img {
   height: 5rem;
-  right: -5rem;
+  right: 4rem;
   top: -7rem;
 }

@@ -1,13 +1,13 @@
 import "./chooseUsGridItem.css";
-import training from "../../../images/choose-us/training.png";
 
-function ChooseUsGridItem() {
+
+function ChooseUsGridItem(props) {
   return (
     <div className="chooseUs-grid-item">
       <div className="chooseUs-icon-container">
-        <img src={training} alt="" />
+        <img src={props.icon} alt="" />
       </div>
-      <h3>Free Fitness Training</h3>
+      <h3>{props.description}</h3>
     </div>
   );
 }

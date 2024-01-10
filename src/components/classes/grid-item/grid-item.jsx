@@ -9,7 +9,7 @@ function GridItem(props) {
 
   return (
     <div className="image-item-wrapper">
-      <div style={containerStyle} className="classes-image-item"></div>
+      <div className="classes-image-item" style={containerStyle}></div>
       <div className="classes-icon-container">
         <img src={props.icon} alt="" />
       </div>
