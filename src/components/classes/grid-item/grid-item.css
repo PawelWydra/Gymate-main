@@ -46,7 +46,7 @@ p {
   aspect-ratio: 1/1;
   transform: rotate(-25deg);
   filter: brightness(0) invert(1);
-  transition: filter 0.3s ease-out;
+  transition: filter 0.3s ease-in-out;
 }
 
 .classes-description-container {
