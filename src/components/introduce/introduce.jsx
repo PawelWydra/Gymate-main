@@ -18,24 +18,24 @@ function Introduce() {
       <article className="introduce-card-container">
         <div className="introduce-card">
           <GiProgression className="introduce-card-icon" />
-          <h2>PROGRESSION</h2>
-          <p>
+          <h2 className="text-2xl py-4 font-bold">PROGRESSION</h2>
+          <p className="text-center px-2">
             Our team of experts will work with you to create a customized plan
             that helps you achieve success one step at a time.
           </p>
         </div>
         <div className="introduce-card">
           <FaRunning className="introduce-card-icon" />
-          <h2>WORKOUT</h2>
-          <p>
+          <h2 className="text-2xl py-4 font-bold">WORKOUT</h2>
+          <p className="text-center px-2">
             With a variety of workouts to choose from, you'll have everything
             you need to get into the best shape of your life.
           </p>
         </div>
         <div className="introduce-card">
           <TbListCheck className="introduce-card-icon" />
-          <h2>NUTRITION</h2>
-          <p>
+          <h2 className="text-2xl py-4 font-bold">NUTRITION</h2>
+          <p className="text-center px-2">
             Our team will work with you to create a personalized meal plan that
             helps you reach your specific health goals.
           </p>
@@ -45,7 +45,7 @@ function Introduce() {
         <div className="info-text-container">
           <header>
             <RedBgHeading text={"WHO WE ARE"}/>
-            <h1 className="introduce-heading">Take Your Health And Body To The Next Level</h1>
+            <h1 className="text-4xl font-bold pt-8">Take Your Health And Body To The Next Level</h1>
           </header>
           <p>
             Take your health and body to the next level with our comprehensive

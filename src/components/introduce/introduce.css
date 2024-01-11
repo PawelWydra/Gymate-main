@@ -23,7 +23,7 @@
 
 .introduce-card {
   background-color: #fff;
-  max-height: 17rem;
+  max-height: 20rem;
   aspect-ratio: 1.2/1;
   display: flex;
   flex-direction: column;
@@ -126,7 +126,6 @@
   text-align: center;
 }
 
-
 .info-image-container {
   position: relative;
   width: 18rem;
@@ -137,9 +136,8 @@
 }
 .girl-img {
   height: 31rem;
-  width: 25rem;
   bottom: -12rem;
-  right: -4rem;
+  right: 0rem;
   z-index: 1;
 }
 .girl-bg-img {
@@ -156,7 +154,7 @@
 }
 
 .wind-img {
-  height: 5rem;
-  right: 4rem;
-  top: -7rem;
+  height: 4rem;
+  right: 5rem;
+  top: -6rem;
 }
