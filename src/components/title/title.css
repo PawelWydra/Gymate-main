@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 30%;
+  width: 40%;
   margin-right: 3rem;
   gap: 2rem;
 }
@@ -49,8 +49,6 @@
   -webkit-filter: brightness(0) invert(1);
 }
 
-
-
 .title-social {
   display: flex;
   flex-direction: column-reverse;
@@ -68,4 +66,5 @@
 .vericaltext {
   font-weight: 700;
   transform: rotate(270deg);
+  margin-bottom: 1rem;
 }
