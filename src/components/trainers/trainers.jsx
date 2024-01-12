@@ -1,27 +1,8 @@
 import "./trainers.css";
 import TrainerCard from "./trainerCard/trainerCard.jsx";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
-import johnLevis from "../../images/trainers/trainer1.png";
-import johnatanDoe from "../../images/trainers/trainer2.png";
-import anaJune from "../../images/trainers/trainer3.png";
-
-const trainerArray = [
-  {
-    image: johnLevis,
-    name: "John Levis",
-    specialization: "Yoga Trainer",
-  },
-  {
-    image: johnatanDoe,
-    name: "Johnatan Doe",
-    specialization: "Fitness Instructor",
-  },
-  {
-    image: anaJune,
-    name: "Ana June",
-    specialization: "Pilates Instructor",
-  },
-];
+import Testimonials from "../testimonials/testimonials.jsx";
+import trainerArray from "./trainersData";
 
 function Trainers() {
   return (
@@ -46,6 +27,7 @@ function Trainers() {
           ))}
         </div>
       </div>
+      <Testimonials />
     </div>
   );
 }
