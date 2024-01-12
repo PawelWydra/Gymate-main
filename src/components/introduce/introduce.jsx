@@ -43,8 +43,10 @@ function Introduce() {
       <article className="introduce-info-container py-20">
         <div className="info-text-container">
           <header>
-            <RedBgHeading text={"WHO WE ARE"}/>
-            <h1 className="text-4xl font-bold pt-8">Take Your Health And Body To The Next Level</h1>
+            <RedBgHeading text={"WHO WE ARE"} />
+            <h1 className="text-4xl font-bold pt-8">
+              Take Your Health And Body To The Next Level
+            </h1>
           </header>
           <p>
             Take your health and body to the next level with our comprehensive
@@ -53,27 +55,31 @@ function Introduce() {
           <div className="introduce-icon-container">
             <div className="introduce-icon">
               <img src={weightLifter} alt="Weight Lifter" />
-              <h4>
+              <h4 className="text-xl font-semibold mt-4">
                 PROFESSIONAL
                 <br /> TRAINERS
               </h4>
             </div>
             <div className="introduce-icon icon-border">
               <img src={equipment} alt="Equipment" />
-              <h4>
+              <h4 className="text-xl font-semibold mt-4">
                 MODERN <br />
                 EQUIPMENT
               </h4>
             </div>
             <div className="introduce-icon">
               <img src={machines} alt="Machines" />
-              <h4>
+              <h4 className="text-xl font-semibold mt-4">
                 FANCY GYM
                 <br /> MACHINES
               </h4>
             </div>
           </div>
-          <button className="introduce-btn" aria-label="Take a Tour">
+          <button
+            className="introduce-btn mt-8
+          "
+            aria-label="Take a Tour"
+          >
             TAKE A TOUR
           </button>
         </div>
