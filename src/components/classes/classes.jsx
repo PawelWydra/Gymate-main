@@ -8,7 +8,7 @@ function Classes() {
     <div className="classes-main-wrapper">
       <div className="classes-container">
         <div className="classes-featured">
-          <RedBgHeading text={"OUR FEATURED CLASS"} />
+          <RedBgHeading text={"OUR FEATURED CLASS"} width="20rem" />
         </div>
         <h1>We Are Offering Best Flexible Classes</h1>
         <div className="classes-image-grid">

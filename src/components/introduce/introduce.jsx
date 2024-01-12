@@ -43,7 +43,7 @@ function Introduce() {
       <article className="introduce-info-container py-20">
         <div className="info-text-container">
           <header>
-            <RedBgHeading text={"WHO WE ARE"} />
+            <RedBgHeading text={"WHO WE ARE"} width="15rem"/>
             <h1 className="text-4xl font-bold pt-8">
               Take Your Health And Body To The Next Level
             </h1>
