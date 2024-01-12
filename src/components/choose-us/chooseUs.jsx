@@ -17,7 +17,7 @@ function ChooseUs() {
         </div>
         <div className="chooseUs-info-container">
           <RedBgHeading text={"WHY CHOOSE US"} />
-          <h1>
+          <h1 className="text-4xl font-semibold py-1 leading-tight">
             We Can Give A Shape Of <br /> Your Body Here!
           </h1>
           <p>

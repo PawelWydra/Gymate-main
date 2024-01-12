@@ -69,10 +69,6 @@
   min-width: 25rem;
 }
 
-.introduce-heading {
-  margin: 1rem;
-  font-size: 2.5rem;
-}
 .info-text-container p {
   position: relative;
   font-size: 1rem;
@@ -82,10 +78,8 @@
 
 .introduce-icon-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  width: 55rem;
 }
 
 .introduce-icon {
@@ -128,7 +122,7 @@
 
 .info-image-container {
   position: relative;
-  width: 18rem;
+  width: 40rem;
 }
 
 .info-image-container > img {
@@ -136,25 +130,26 @@
 }
 .girl-img {
   height: 31rem;
+  width: 32rem;
   bottom: -12rem;
-  right: 0rem;
-  z-index: 1;
+  right: 3rem;
+  z-index: 2;
 }
 .girl-bg-img {
   max-height: 31rem;
   bottom: -12rem;
-  right: -3rem;
+  right: 8rem;
 }
 
 .girl-sidetext-img {
-  height: 35rem;
-  bottom: -15rem;
-  right: 22rem;
-  z-index: 2;
+  height: 40rem;
+  bottom: -18rem;
+  right: 30rem;
+  z-index: 1;
 }
 
 .wind-img {
   height: 4rem;
-  right: 5rem;
+  right: 15rem;
   top: -6rem;
 }

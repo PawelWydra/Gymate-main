@@ -40,7 +40,7 @@ function Introduce() {
           </p>
         </div>
       </article>
-      <article className="introduce-info-container">
+      <article className="introduce-info-container py-20">
         <div className="info-text-container">
           <header>
             <RedBgHeading text={"WHO WE ARE"}/>
