@@ -14,27 +14,7 @@
 .join-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-size: 70%;
-  max-width: 80vw;
+  width: 70rem;
 }
 
-.join-heading {
-  font-size: 1.2rem;
-  letter-spacing: 0.1rem;
-}
 
-.join-btn {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 1rem;
-    width: 12rem;
-    height: 3.5rem;
-    margin-left: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.85rem;
-    font-weight: 700;
-    background-color: #fff;
-    border: none;
-}

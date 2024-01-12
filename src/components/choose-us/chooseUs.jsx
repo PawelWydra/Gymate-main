@@ -2,7 +2,6 @@ import "./chooseUs.css";
 import { FaCirclePlay } from "react-icons/fa6";
 import mainImg from "../../images/choose-us/main-img.png";
 import ChooseUsGridItem from "./chooseUsGridItem/chooseUsGridItem";
-import redBg from "../../images/choose-us/title-bg.svg";
 import fitnessObjects from "./gridData.jsx";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
 

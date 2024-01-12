@@ -3,6 +3,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { RiTwitterXLine } from "react-icons/ri";
 import titleImage from "../../images/choose-us/title-bg.svg";
+import BtnWithRedArrow from "./btnWithRedArrow/btnWithRedArrow";
 
 function Title() {
   return (
@@ -17,9 +18,7 @@ function Title() {
             <span style={{ fontWeight: 300 }}>FIT & PERFECT</span>
           </h1>
           <div className="btn-container">
-            <button className="bg-white text-black font-bold text-base w-60 py-4">
-              OUR CLASSES
-            </button>
+            <BtnWithRedArrow text={"OUR CLASSES"} />
           </div>
         </div>
         <div className="title-social">

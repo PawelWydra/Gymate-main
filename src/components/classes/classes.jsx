@@ -1,5 +1,4 @@
 import "./classes.css";
-import redBg from "../../images/choose-us/title-bg.svg";
 import GridItem from "./grid-item/grid-item";
 import gridItems from "./classes-data.jsx";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";

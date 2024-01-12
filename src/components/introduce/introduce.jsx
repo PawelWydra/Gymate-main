@@ -5,7 +5,6 @@ import { TbListCheck } from "react-icons/tb";
 import weightLifter from "../../images/who-we-are/weightlifter.png";
 import equipment from "../../images/who-we-are/equpments.png";
 import machines from "../../images/who-we-are/gym.png";
-import titleImage from "../../images/choose-us/title-bg.svg";
 import girl from "../../images/who-we-are/girl-run.png";
 import girlBackground from "../../images/who-we-are/girl-redbg.svg";
 import girlSideText from "../../images/who-we-are/girl-side-text.png";
