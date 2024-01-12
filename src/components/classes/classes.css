@@ -9,11 +9,12 @@
 }
 
 .classes-container {
-  min-width: 70rem;
+  min-width: 75rem;
 }
 
 .classes-container h1 {
   text-align: center;
+  font-weight: 700;
   font-size: 2.5rem;
 }
 

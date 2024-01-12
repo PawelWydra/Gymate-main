@@ -14,7 +14,7 @@ function GridItem(props) {
         <img src={props.icon} alt="" />
       </div>
       <div className="classes-description-container">
-        <h2 className="text-3xl">{props.activity}</h2>
+        <h2 className="text-3xl font-semibold my-5">{props.activity}</h2>
         <div className="classes-date-container">
           <p>{props.time}</p>
         </div>
