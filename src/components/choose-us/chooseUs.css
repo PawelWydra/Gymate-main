@@ -13,6 +13,7 @@
   justify-content: center;
   max-height: 80%;
   max-width: 80rem;
+  min-width: 1124px;
 }
 
 .chooseUs-image-container {
