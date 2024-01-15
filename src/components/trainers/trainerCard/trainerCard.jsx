@@ -1,9 +1,12 @@
 import trainerBg from "../../../images/trainers/trainer-bg.png";
-import AnimatedSpan from "../animatedSpan/animatedSpan.jsx";
+import AnimatedSpan from "./animatedSpan/animatedSpan.jsx";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { RiTwitterXLine } from "react-icons/ri";
 import { AiOutlineMail } from "react-icons/ai";
+import shape from "../../../images/trainers/shape.png";
+import { IoIosArrowUp } from "react-icons/io";
+
 
 function TrainerCard({ trainer, name, specialization }) {
   const trainerClasses = `
@@ -26,6 +29,8 @@ function TrainerCard({ trainer, name, specialization }) {
           <RiTwitterXLine className="w-4 h-4" />
           <AiOutlineMail className="w-4 h-4" />
         </div>
+        <img src={shape} alt="" className="absolute bottom-32 h-8" />
+        <IoIosArrowUp  className="absolute bottom-32 text-2xl"/>
         <AnimatedSpan />
       </div>
     </div>
