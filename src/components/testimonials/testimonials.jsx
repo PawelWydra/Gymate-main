@@ -2,6 +2,7 @@ import RedBgHeading from "../title/redBgHeading/redBgHeading";
 import quotes from "../../images/testimonials/quotes.png";
 import testimonialNew from "../../images/testimonials/testimonial-new.jpg";
 import ArrowRedBtn from "./arrowRedBtn/arrowRedBtn";
+import LogoContainer from "./logoContainer/logoContainer";
 
 const paragraphText = `"I've been a member of Gymate for the past 6 months and it has
 been an amazing experience. The trainers are knowledgeable and
@@ -19,9 +20,9 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="flex flex-col items-center gap-40 w-full">
+    <div className="flex flex-col items-center mt-20 w-full">
       <RedBgHeading text="TESTIMONIALS" width="15rem" />
-      <div className="flex items-center justify-center max-w-6xl border-8 border-gray-200 p-8">
+      <div className="flex items-center justify-center max-w-6xl mt-40 border-8 border-gray-200 p-8">
         <div className="flex justify-end size-max p-8 bg-black text-white relative">
           <img src={testimonialNew} alt="" style={ladyStyles} />
           <div className="w-7/12 h-2/3 flex flex-col">
@@ -38,6 +39,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
+      <LogoContainer />
     </div>
   );
 };
