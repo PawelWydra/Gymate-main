@@ -4,9 +4,9 @@ import RedBgHeading from "../title/redBgHeading/redBgHeading";
 import Testimonials from "../testimonials/testimonials.jsx";
 import trainerArray from "./trainersData";
 
-function Trainers() {
+function TrainersAndTestimonials() {
   return (
-    <div className="trainers-container">
+    <div className="trainers-container flex flex-col">
       <div className="trainers-wrapper my-24 text-center">
         <RedBgHeading text={"GYM TRAINERS"} />
         <h1 className="text-4xl font-semibold max-w-lg">
@@ -32,4 +32,4 @@ function Trainers() {
   );
 }
 
-export default Trainers;
+export default TrainersAndTestimonials;

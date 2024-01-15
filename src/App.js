@@ -5,7 +5,7 @@ import Introduce from "./components/introduce/introduce.jsx";
 import Join from "./components/join/join";
 import Navbar from "./components/navbar/navbar.jsx";
 import Title from "./components/title/title.jsx";
-import Trainers from "./components/trainers/trainers";
+import TrainersAndTestimonials from "./components/trainers/trainers";
 
 function App() {
   return (
@@ -16,8 +16,7 @@ function App() {
       <Classes />
       <Join />
       <ChooseUs />
-      <Trainers />
-      <section>TESTIMONIALS</section>
+      <TrainersAndTestimonials />
       <section>GALLERY</section>
       <section>BMI</section>
       <section>Pricing</section>

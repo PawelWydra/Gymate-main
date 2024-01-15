@@ -7,12 +7,10 @@ members is friendly and encouraging.`;
 
 function Testimonials() {
   return (
-    <div className="main-container">
-      <div className="h2-title">
-        <RedBgHeading text={"TESTIMONIALS"} />
-      </div>
-      <div className="main-wrapper">
-        <div className="context-wrapper">
+    <div className="flex flex-col items-center gap-4 w-full">
+      <RedBgHeading text={"TESTIMONIALS"} width={"15rem"} />
+      <div className="flex items-center justify-center size-10/12 border-8 border-gray-100 p-8">
+        <div className="flex items-center justify-center size-max p-8 bg-black text-white">
           <img src="" alt="" className="grazka" />
           <div className="harry-potter-text">
             <img src="" alt="" className="cudzyslow" />
