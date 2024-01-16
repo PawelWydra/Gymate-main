@@ -6,12 +6,12 @@ import logo5 from "../../../images/testimonials/logo5.png";
 
 function LogoContainer() {
   return (
-    <div className="flex justyfi-around max-w-6xl gap-4 py-5 my-10">
-      <img src={logo1} alt="" className="h-25 w-50" />
-      <img src={logo2} alt="" className="h-25 w-50" />
-      <img src={logo3} alt="" className="h-25 w-50" />
-      <img src={logo4} alt="" className="h-25 w-50" />
-      <img src={logo5} alt="" className="h-25 w-50" />
+    <div className="flex justyfi-around max-w-6xl gap-4 py-5 my-10 ">
+      <img src={logo1} alt="" className="h-25 w-50 hover:brightness-50 duration-300" />
+      <img src={logo2} alt="" className="h-25 w-50 hover:brightness-50 duration-300" />
+      <img src={logo3} alt="" className="h-25 w-50 hover:brightness-50 duration-300" />
+      <img src={logo4} alt="" className="h-25 w-50 hover:brightness-50 duration-300" />
+      <img src={logo5} alt="" className="h-25 w-50 hover:brightness-50 duration-300" />
     </div>
   );
 }

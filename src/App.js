@@ -1,6 +1,7 @@
 import "./app.css";
 import ChooseUs from "./components/choose-us/chooseUs";
 import Classes from "./components/classes/classes";
+import Gallery from "./components/gallery/gallery";
 import Introduce from "./components/introduce/introduce.jsx";
 import Join from "./components/join/join";
 import Navbar from "./components/navbar/navbar.jsx";
@@ -17,7 +18,7 @@ function App() {
       <Join />
       <ChooseUs />
       <TrainersAndTestimonials />
-      <section>GALLERY</section>
+      <Gallery />
       <section>BMI</section>
       <section>Pricing</section>
       <section>BLOG</section>
