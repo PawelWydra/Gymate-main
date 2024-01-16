@@ -1,4 +1,5 @@
 import "./app.css";
+import Bmi from "./components/bmi/bmi";
 import ChooseUs from "./components/choose-us/chooseUs";
 import Classes from "./components/classes/classes";
 import Gallery from "./components/gallery/gallery";
@@ -19,7 +20,7 @@ function App() {
       <ChooseUs />
       <TrainersAndTestimonials />
       <Gallery />
-      <section>BMI</section>
+      <Bmi />
       <section>Pricing</section>
       <section>BLOG</section>
       <section>advertisment</section>
