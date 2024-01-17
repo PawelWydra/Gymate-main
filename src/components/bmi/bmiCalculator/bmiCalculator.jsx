@@ -49,13 +49,13 @@ function BmiCalculator() {
       />
       <span>Your BMI is: {bmi}</span>
       <span>
-        Your BMI Category is:{" "}
+        Your BMI Category is:
         <span
           className={
             bmiCategory === "Normal Weight" ? "text-green-500" : "text-red-500"
           }
         >
-          {bmiCategory}
+          {" " + bmiCategory}
         </span>
       </span>
 
