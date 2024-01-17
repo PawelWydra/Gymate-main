@@ -1,0 +1,126 @@
+.chooseUs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50rem;
+  background-image: url("../../images/choose-us/choose-bg.jpg");
+}
+.chooseUs-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 80%;
+  max-width: 80rem;
+  min-width: 1124px;
+}
+
+.chooseUs-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 80vh;
+}
+
+.chooseUs-image {
+  position: absolute;
+  bottom: 2rem;
+  left: 4.5rem;
+  max-height: 35rem;
+  aspect-ratio: 1/1.2;
+}
+
+.red-span {
+  position: absolute;
+  background-color: red;
+  border-radius: 0.5rem;
+}
+
+.short-span {
+  width: 0.5rem;
+  height: 15rem;
+  bottom: 2.5rem;
+  left: 3rem;
+}
+
+.long-span {
+  width: 0.5rem;
+  height: 22rem;
+  bottom: 10rem;
+  left: 33rem;
+  transform: rotate(354deg);
+}
+
+.image-play-btn {
+  position: absolute;
+  bottom: 20rem;
+  left: 17rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  color: white;
+  background-color: red;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.chooseUs-info-container {
+  position: relative;
+  height: 52rem;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.chooseUs-redBg {
+  position: absolute;
+  top: 6.5rem;
+  left: -2.5rem;
+  width: 15rem;
+}
+
+.chooseUs-info-container h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.chooseUs-info-container h2 {
+  position: absolute;
+  font-size: 1.2rem;
+  top: 6rem;
+  left: 0;
+  z-index: 1;
+}
+
+.chooseUs-info-container p {
+  font-size: 1.1rem;
+  font-weight: 100;
+  line-height: 1.5rem;
+  max-width: 70%;
+  opacity: 0.7;
+}
+
+.chooseUs-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+  max-width: 65%;
+  min-width: 30rem;
+}
+
+.chooseUs-btn {
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 12rem;
+  height: 3.5rem;
+  background-color: #5B625F;
+  color: #fff;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+}

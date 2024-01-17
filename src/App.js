@@ -1,7 +1,13 @@
 import "./app.css";
+import Bmi from "./components/bmi/bmi";
+import ChooseUs from "./components/choose-us/chooseUs";
+import Classes from "./components/classes/classes";
+import Gallery from "./components/gallery/gallery";
 import Introduce from "./components/introduce/introduce.jsx";
+import Join from "./components/join/join";
 import Navbar from "./components/navbar/navbar.jsx";
 import Title from "./components/title/title.jsx";
+import TrainersAndTestimonials from "./components/trainers/trainers";
 
 function App() {
   return (
@@ -9,13 +15,12 @@ function App() {
       <Navbar />
       <Title />
       <Introduce />
-      <section>classes</section>
-      <section>join div</section>
-      <section>choose us</section>
-      <section>trainers</section>
-      <section>TESTIMONIALS</section>
-      <section>GALLERY</section>
-      <section>BMI</section>
+      <Classes />
+      <Join />
+      <ChooseUs />
+      <TrainersAndTestimonials />
+      <Gallery />
+      <Bmi />
       <section>Pricing</section>
       <section>BLOG</section>
       <section>advertisment</section>
