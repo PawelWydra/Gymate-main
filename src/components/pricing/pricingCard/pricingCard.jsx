@@ -10,7 +10,7 @@ function PricingCard({ imgSrc, title, price }) {
   ];
 
   return (
-    <div className="w-full shadow-2xl">
+    <div className="shadow-2xl">
       <div className="relative group">
         <img
           src={imgSrc}
