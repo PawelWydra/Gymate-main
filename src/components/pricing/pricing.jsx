@@ -1,28 +1,46 @@
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
-import backGroundPricing from "../../images/pricing/background.jpg";
+import PricingCard from "./pricingCard/pricingCard.jsx";
+import pricingBg from "../../images/pricing/background.jpg";
+import img1 from "../../images/pricing/img1.jpg";
+import img2 from "../../images/pricing/img2.jpg";
+import img3 from "../../images/pricing/img3.jpg";
 
+const pricingData = [
+  { imgSrc: img1, title: "Beginner", price: "39" },
+  { imgSrc: img2, title: "Intermediate", price: "45" },
+  { imgSrc: img3, title: "Advance", price: "60" },
+];
 
 function Pricing() {
-  const bgContainer = {
-    backgroundImage: `url(${backGroundPricing})`,
+  const pricingBgStyle = {
+    backgroundImage: `url(${pricingBg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
   };
 
   return (
     <div
-      className="w-full flex flex-col items-center py-16"
-      style={bgContainer}
+      className="w-full flex flex-col items-center bg-white py-8 lg:p-24"
+      style={pricingBgStyle}
     >
-      <div className="w-10/12 flex flex-col items-center gap-6">
+      <div className="max-w-5xl flex flex-col items-center gap-6">
         <RedBgHeading text={"PRICING CHART"} />
         <h1 className="text-4xl font-semibold text-black">
           Exclusive Pricing Plan
         </h1>
-        <p className="lg:w-4/12 text-gray-500 text-center">
+        <p className="w-full lg:w-8/12 text-gray-500 text-center mb-10">
           Gymat an unknown printer took a galley of type and scrambled make a
           type specimen book.
         </p>
-        <div className="w-9/12">
-         
+        <div className="flex flex-col w-full px-20 lg:p-0 md:flex-row gap-6">
+          {pricingData.map(({ imgSrc, title, price }, index) => (
+            <PricingCard
+              key={index}
+              imgSrc={imgSrc}
+              title={title}
+              price={price}
+            />
+          ))}
         </div>
       </div>
     </div>
