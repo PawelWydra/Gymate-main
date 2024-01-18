@@ -1,4 +1,5 @@
 import "./app.css";
+import Blog from "./components/blog/blog";
 import Bmi from "./components/bmi/bmi";
 import ChooseUs from "./components/choose-us/chooseUs";
 import Classes from "./components/classes/classes";
@@ -23,7 +24,7 @@ function App() {
       <Gallery />
       <Bmi />
       <Pricing />
-      <section>BLOG</section>
+      <Blog />
       <section>advertisment</section>
       <section>footer</section>
     </div>
