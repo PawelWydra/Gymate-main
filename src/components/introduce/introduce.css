@@ -1,11 +1,3 @@
-.introduce-container {
-  position: relative;
-  background-image: url("../../images/who-we-are/background.jpg");
-  background-position: center;
-  background-size: cover;
-  color: black;
-  padding-bottom: 3rem;
-}
 
 .introduce-card-container {
   display: flex;

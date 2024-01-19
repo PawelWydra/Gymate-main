@@ -10,13 +10,13 @@ import girlBackground from "../../images/who-we-are/girl-redbg.svg";
 import girlSideText from "../../images/who-we-are/girl-side-text.png";
 import girlWind from "../../images/who-we-are/wind.png";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
-import PaddingContainer from "../paddingContainer/paddingContainer";
+import SectionContainer from "../sectionContainer/sectionContainer";
+import bgImage from "../../images/who-we-are/background.jpg"
 
 function Introduce() {
   return (
-    <section className="introduce-container">
-      <PaddingContainer>
-        <article className="introduce-card-container">
+      <SectionContainer bg={bgImage}>
+        <article className="introduce-card-container text-black">
           <div className="introduce-card">
             <GiProgression className="introduce-card-icon" />
             <h2 className="text-2xl py-4 font-bold">PROGRESSION</h2>
@@ -42,7 +42,7 @@ function Introduce() {
             </p>
           </div>
         </article>
-        <article className="introduce-info-container">
+        <article className="introduce-info-container text-black">
           <div className="info-text-container">
             <header>
               <RedBgHeading text={"WHO WE ARE"} width="15rem" />
@@ -92,8 +92,7 @@ function Introduce() {
             <img src={girlWind} alt="" className="wind-img" />
           </div>
         </article>
-      </PaddingContainer>
-    </section>
+      </SectionContainer>
   );
 }
 

@@ -1,41 +1,6 @@
 .classes-main-wrapper {
   background-color: #fff;
   color: #000000;
-  width: 100%;
-  padding: 5rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;;
-}
-
-.classes-container {
-  min-width: 75rem;;
-}
-
-.classes-container h1 {
-  text-align: center;
-  font-weight: 700;
-  font-size: 2.5rem;
-  margin: 1rem;
-}
-
-.classes-featured {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.redBg {
-  position: absolute;
-  width: 15rem;
-}
-
-.classes-featured h3 {
-  position: absolute;
-  z-index: 1;
-  color: #fff;
-  font-size: 1rem;
 }
 
 .classes-image-grid {
