@@ -7,7 +7,7 @@ function BlogCard({ date, heading, paragraphText }) {
         <h3 className="text-sm font-bold">{date}</h3>
       </div>
       <h2 className="text-2xl font-semibold text-pretty mt-4">{heading}</h2>
-      <p className="mb-5 h-max">{paragraphText}</p>
+      <p className="mb-5 text-justify">{paragraphText}</p>
       <BtnWithRedArrow
         text="READ MORE"
         bgColor="bg-buttonColor"

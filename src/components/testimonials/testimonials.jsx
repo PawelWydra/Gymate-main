@@ -4,10 +4,10 @@ import testimonialNew from "../../images/testimonials/testimonial-new.jpg";
 import ArrowRedBtn from "./arrowRedBtn/arrowRedBtn";
 import LogoContainer from "./logoContainer/logoContainer";
 
-const paragraphText = `"I've been a member of Gymate for the past 6 months and it has
+const paragraphText = `I've been a member of Gymate for the past 6 months and it has
 been an amazing experience. The trainers are knowledgeable and
 supportive, the equipment is top-notch, and the community of
-members is friendly and encouraging."`;
+members is friendly and encouraging.`;
 
 const Testimonials = () => {
   const ladyStyles = {
@@ -27,9 +27,9 @@ const Testimonials = () => {
           <img src={testimonialNew} alt="" style={ladyStyles} />
           <div className="w-7/12 h-2/3 flex flex-col">
             <img src={quotes} alt="" className="size-16" />
-            <p className="w-10/12 my-4 text-lg font-thin italic text-gray-300">
+            <q className="w-10/12 my-4 text-lg font-thin italic text-gray-300">
               {paragraphText}
-            </p>
+            </q>
             <h1 className="text-2xl font-semibold">Harry Potter</h1>
             <p className="font-thin text-sm">CEO of Hogwarts</p>
           </div>
