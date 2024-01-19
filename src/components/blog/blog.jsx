@@ -1,5 +1,6 @@
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
 import BlogCard from "./blogCard/blogCard";
+import blogData from "./blogDataModel";
 
 function Blog() {
   return (
@@ -11,14 +12,15 @@ function Blog() {
           Gymat an unknown printer took a galley of type and scrambled make a
           type specimen book.
         </p>
-        <div className="flex gap-4">
-          <BlogCard
-            date="22.03.2022"
-            heading="Yoga For Everyone in 2023"
-            paragraphText="This is a program designed to make the practice of yoga beneficial for people of all ages, abilities, and backgrounds."
-          />
-          <BlogCard />
-          <BlogCard />
+        <div className="flex flex-col md:flex-row justify-center gap-6 flex-wrap">
+          {blogData.map((blog, index) => (
+            <BlogCard
+              key={index}
+              date={blog.date}
+              heading={blog.heading}
+              paragraphText={blog.paragraphText}
+            />
+          ))}
         </div>
       </div>
     </div>
