@@ -1,17 +1,13 @@
-.chooseUs-container {
-}
+
 .chooseUs-wrapper {
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .chooseUs-image {
   position: absolute;
-  left: 2rem;
-  bottom: 8rem;
+  left: 0;
+  bottom: 1rem;
   max-height: 35rem;
+  max-width: 30rem;
 }
 
 .red-span {
@@ -23,15 +19,15 @@
 .short-span {
   width: 0.5rem;
   height: 15rem;
-  bottom: 8rem;
-  left: 1rem;
+  bottom: 1rem;
+  left: -1rem;
 }
 
 .long-span {
   width: 0.5rem;
   height: 22rem;
-  bottom: 13rem;
-  left: 30rem;
+  bottom: 6rem;
+  left: 27.5rem;
   transform: rotate(354deg);
 }
 
@@ -48,15 +44,6 @@
   cursor: pointer;
 }
 
-.chooseUs-info-container {
-  position: relative;
-  height: 52rem;
-  max-width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-}
 
 .chooseUs-redBg {
   position: absolute;

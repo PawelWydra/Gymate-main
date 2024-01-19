@@ -9,12 +9,12 @@ import SectionContainer from "../sectionContainer/sectionContainer.jsx";
 function ChooseUs() {
   return (
     <SectionContainer>
-      <div className="chooseUs-wrapper">
-        <img src={mainImg} alt="" className="chooseUs-image" />
-        <span className="red-span short-span"></span>
-        <span className="red-span long-span"></span>
-        <FaCirclePlay className="image-play-btn" />
-        <div className="chooseUs-info-container">
+      <div className="relative lg:flex xl:justify-end">
+        <img src={mainImg} alt="" className="absolute left-0 bottom-0 hidden xl:block w-[28rem]"/>
+        <span className="red-span short-span hidden xl:block"></span>
+        <span className="red-span long-span hidden xl:block"></span>
+        <FaCirclePlay className="image-play-btn hidden xl:block" />
+        <div className="xl:w-1/2 flex flex-col items-center xl:items-start gap-6">
           <RedBgHeading text={"WHY CHOOSE US"} />
           <h1 className="text-4xl font-semibold py-1 leading-tight">
             We Can Give A Shape Of <br /> Your Body Here!
