@@ -9,8 +9,8 @@ function BlogCard({ date, heading, paragraphText }) {
       <h2 className="text-2xl font-semibold text-pretty mt-4">{heading}</h2>
       <p className="mb-5 h-max">{paragraphText}</p>
       <BtnWithRedArrow
-        text="PURCHASE NOW"
-        bgColor="bg-red-500"
+        text="READ MORE"
+        bgColor="bg-buttonColor"
         textColor="white"
         arrowColor="white"
       />

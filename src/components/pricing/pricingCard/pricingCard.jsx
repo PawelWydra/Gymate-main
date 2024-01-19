@@ -43,7 +43,7 @@ function PricingCard({ imgSrc, title, price }) {
         ))}
         <BtnWithRedArrow
           text="PURCHASE NOW"
-          bgColor="bg-red-500"
+          bgColor="bg-buttonColor"
           textColor="white"
           arrowColor="white"
         />

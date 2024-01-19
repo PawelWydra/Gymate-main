@@ -4,7 +4,7 @@ import blogData from "./blogDataModel";
 
 function Blog() {
   return (
-    <div className="flex flex-col items-center bg-white p-24">
+    <div className="flex flex-col items-center bg-white p-8 md:p-24">
       <div className="max-w-6xl flex flex-col items-center gap-6">
         <RedBgHeading text={"LATEST BLOG"} />
         <h1 className="text-4xl font-semibold text-black">Our Recent News</h1>
