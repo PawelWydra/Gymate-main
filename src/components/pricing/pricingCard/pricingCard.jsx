@@ -17,10 +17,7 @@ function PricingCard({ imgSrc, title, price }) {
           alt=""
           className="w-full grayscale group-hover:grayscale-0 duration-300"
         />
-        <div
-          className="h-1/5 w-4/6 flex items-end justify-center bg-white absolute bottom-[-1px] left-1/2 transform -translate-x-1/2"
-          
-        >
+        <div className="h-1/5 w-4/6 flex items-end justify-center bg-white absolute bottom-[-1px] left-1/2 transform -translate-x-1/2">
           <h2 className="text-2xl md:text-xl font-semibold text-black group-hover:text-red-500 duration-300">
             {title}
           </h2>
@@ -41,12 +38,14 @@ function PricingCard({ imgSrc, title, price }) {
             {paragraph}
           </p>
         ))}
-        <BtnWithRedArrow
-          text="PURCHASE NOW"
-          bgColor="bg-buttonColor"
-          textColor="white"
-          arrowColor="white"
-        />
+        <div className="my-5">
+          <BtnWithRedArrow
+            text="PURCHASE NOW"
+            bgColor="bg-buttonColor"
+            textColor="white"
+            arrowColor="white"
+          />
+        </div>
       </div>
     </div>
   );

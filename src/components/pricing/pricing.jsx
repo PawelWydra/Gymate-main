@@ -32,7 +32,7 @@ function Pricing() {
           Gymat an unknown printer took a galley of type and scrambled make a
           type specimen book.
         </p>
-        <div className="flex flex-col w-full px-20 lg:p-0 md:flex-row gap-6">
+        <div className="flex flex-col items-center w-full px-20 lg:p-0 md:flex-row gap-6">
           {pricingData.map(({ imgSrc, title, price }, index) => (
             <PricingCard
               key={index}
