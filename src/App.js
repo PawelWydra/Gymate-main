@@ -1,4 +1,3 @@
-import "./app.css";
 import Blog from "./components/blog/blog";
 import Bmi from "./components/bmi/bmi";
 import ChooseUs from "./components/choose-us/chooseUs";
@@ -13,7 +12,7 @@ import TrainersAndTestimonials from "./components/trainers/trainers";
 
 function App() {
   return (
-    <div className="main-wrapper">
+    <div className=" bg-black ">
       <Navbar />
       <Title />
       <Introduce />
