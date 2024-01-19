@@ -23,7 +23,7 @@ function Pricing() {
       className="w-full flex flex-col items-center bg-white py-8 lg:p-24"
       style={pricingBgStyle}
     >
-      <div className="max-w-5xl flex flex-col items-center gap-6">
+      <div className="max-w-6xl flex flex-col items-center gap-6">
         <RedBgHeading text={"PRICING CHART"} />
         <h1 className="text-4xl font-semibold text-black">
           Exclusive Pricing Plan
