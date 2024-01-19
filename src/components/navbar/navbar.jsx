@@ -7,11 +7,11 @@ import { FaPlus } from "react-icons/fa6";
 function Navbar() {
   return (
     <div className="navbar-container">
-      <div className="navbar-logo">
+      <div className="min-w-40 ml-4">
         <img src={mainLogo} alt="logo" />
       </div>
       <div className="navbar-menu">
-        <ul>
+        <ul className="flex">
           <li>Home</li>
           <li>About</li>
           <li>Gallery</li>
@@ -23,10 +23,12 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-login">
-          <FaRegUser className="login-icon-item" />
-          <FaChartBar className="login-icon-item" />
+        <FaRegUser className="login-icon-item" />
+        <FaChartBar className="login-icon-item" />
         <div className="login-join-class">
-          <div className="login-plus"><FaPlus /></div>
+          <div className="login-plus">
+            <FaPlus />
+          </div>
           <h1>JOIN CLASS NOW</h1>
         </div>
       </div>
