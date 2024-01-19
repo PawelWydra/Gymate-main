@@ -6,8 +6,8 @@ function BlogCard({ date, heading, paragraphText }) {
       <div className="max-h-10 max-w-fit flex items-center border border-solid border-black rounded-3xl p-4">
         <h3 className="text-sm font-bold">{date}</h3>
       </div>
-      <h2 className="text-2xl font-semibold text-pretty mt-4">{heading}</h2>
-      <p className="mb-5 text-justify">{paragraphText}</p>
+      <h2 className="text-2xl font-semibold mt-4">{heading}</h2>
+      <p className="mb-5 text-md text-gray-500 text-justify leading-5">{paragraphText}</p>
       <BtnWithRedArrow
         text="READ MORE"
         bgColor="bg-buttonColor"
