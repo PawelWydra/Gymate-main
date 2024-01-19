@@ -12,7 +12,11 @@ function Blog() {
           type specimen book.
         </p>
         <div className="flex gap-4">
-          <BlogCard />
+          <BlogCard
+            date="22.03.2022"
+            heading="Yoga For Everyone in 2023"
+            paragraphText="This is a program designed to make the practice of yoga beneficial for people of all ages, abilities, and backgrounds."
+          />
           <BlogCard />
           <BlogCard />
         </div>
