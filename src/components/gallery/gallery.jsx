@@ -37,7 +37,7 @@ function Gallery() {
   };
 
   return (
-    <div className="w-full flex flex-col items-center bg-white p-36">
+    <div className="w-full flex-col items-center bg-white p-36 hidden lg:flex">
       <div className="max-w-6xl flex flex-col items-center gap-6">
         <RedBgHeading text={"GYM GALLERY"} />
         <h1 className="text-4xl font-semibold text-black">
@@ -49,8 +49,8 @@ function Gallery() {
           atmosphere.
         </p>
         <div
-          className="w-full grid grid-rows-2 grid-cols-4 gap-2"
-          style={{ height: "40rem" }}
+          className="w-full h-[40rem] grid grid-rows-2 grid-cols-4 gap-2"
+
         >
           <div className="col-span-2 row-span-2" style={boxingGirlStyle}></div>
           <div className="col-span-2" style={barbleGirlStyle}></div>
