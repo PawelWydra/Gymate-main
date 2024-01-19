@@ -32,7 +32,7 @@ function BmiCalculator() {
   };
 
   return (
-    <div className="grid grid-cols-2 gap-4 w-4/5">
+    <div className="grid grid-cols-2 gap-4 lg:w-4/5">
       <input
         type="text"
         placeholder="Weight / kg"

@@ -18,10 +18,8 @@ function PricingCard({ imgSrc, title, price }) {
           className="w-full grayscale group-hover:grayscale-0 duration-300"
         />
         <div
-          className="h-1/5 w-4/6 flex items-end justify-center bg-white absolute left-1/2 transform -translate-x-1/2"
-          style={{
-            bottom: "-2px",
-          }}
+          className="h-1/5 w-4/6 flex items-end justify-center bg-white absolute bottom-[-1px] left-1/2 transform -translate-x-1/2"
+          
         >
           <h2 className="text-2xl md:text-xl font-semibold text-black group-hover:text-red-500 duration-300">
             {title}

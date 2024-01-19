@@ -12,7 +12,7 @@ function Blog() {
           type specimen book.
         </p>
         <div className="flex flex-col w-full px-20 lg:p-0 md:flex-row gap-6">
-          <div className="w-1/3 min-h-80 shadow-2xl text-black">
+          <div className="w- min-h-80 shadow-2xl text-black">
             <div className="data-div">
               <h3>22.03.2022</h3>
             </div>
