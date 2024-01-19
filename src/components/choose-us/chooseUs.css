@@ -1,35 +1,17 @@
 .chooseUs-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 50rem;
-  background-image: url("../../images/choose-us/choose-bg.jpg");
 }
 .chooseUs-wrapper {
   position: relative;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  max-height: 80%;
-  max-width: 80rem;
-  min-width: 1124px;
-}
-
-.chooseUs-image-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  height: 80vh;
 }
 
 .chooseUs-image {
   position: absolute;
-  bottom: 2rem;
-  left: 4.5rem;
+  left: 2rem;
+  bottom: 8rem;
   max-height: 35rem;
-  aspect-ratio: 1/1.2;
 }
 
 .red-span {
@@ -41,15 +23,15 @@
 .short-span {
   width: 0.5rem;
   height: 15rem;
-  bottom: 2.5rem;
-  left: 3rem;
+  bottom: 8rem;
+  left: 1rem;
 }
 
 .long-span {
   width: 0.5rem;
   height: 22rem;
-  bottom: 10rem;
-  left: 33rem;
+  bottom: 13rem;
+  left: 30rem;
   transform: rotate(354deg);
 }
 
@@ -117,7 +99,7 @@
   margin-top: 1rem;
   width: 12rem;
   height: 3.5rem;
-  background-color: #5B625F;
+  background-color: #5b625f;
   color: #fff;
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

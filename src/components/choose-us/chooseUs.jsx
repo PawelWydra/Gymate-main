@@ -4,17 +4,16 @@ import mainImg from "../../images/choose-us/main-img.png";
 import ChooseUsGridItem from "./chooseUsGridItem/chooseUsGridItem";
 import fitnessObjects from "./gridData.jsx";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
+import SectionContainer from "../sectionContainer/sectionContainer.jsx";
 
 function ChooseUs() {
   return (
-    <div className="chooseUs-container">
+    <SectionContainer>
       <div className="chooseUs-wrapper">
-        <div className="chooseUs-image-container">
-          <img src={mainImg} alt="" className="chooseUs-image" />
-          <span className="red-span short-span"></span>
-          <span className="red-span long-span"></span>
-          <FaCirclePlay className="image-play-btn" />
-        </div>
+        <img src={mainImg} alt="" className="chooseUs-image" />
+        <span className="red-span short-span"></span>
+        <span className="red-span long-span"></span>
+        <FaCirclePlay className="image-play-btn" />
         <div className="chooseUs-info-container">
           <RedBgHeading text={"WHY CHOOSE US"} />
           <h1 className="text-4xl font-semibold py-1 leading-tight">
@@ -38,7 +37,7 @@ function ChooseUs() {
           <button className="chooseUs-btn">JOIN WITH US</button>
         </div>
       </div>
-    </div>
+    </SectionContainer>
   );
 }
 
