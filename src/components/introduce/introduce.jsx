@@ -2,16 +2,16 @@ import "./introduce.css";
 import { GiProgression } from "react-icons/gi";
 import { FaRunning } from "react-icons/fa";
 import { TbListCheck } from "react-icons/tb";
-import weightLifter from "../assets/../images/who-we-are/weightlifter.png";
-import equipment from "../assets/../images/who-we-are/equpments.png";
-import machines from "../assets/../images/who-we-are/gym.png";
-import girl from "../assets/../images/who-we-are/girl-run.png";
-import girlBackground from "../assets/../images/who-we-are/girl-redbg.svg";
-import girlSideText from "../assets/../images/who-we-are/girl-side-text.png";
-import girlWind from "../assets/../images/who-we-are/wind.png";
+import weightLifter from "../../assets/images/who-we-are/weightlifter.png";
+import equipment from "../../assets/images/who-we-are/equpments.png";
+import machines from "../../assets/images/who-we-are/gym.png";
+import girl from "../../assets/images/who-we-are/girl-run.png";
+import girlBackground from "../../assets/images/who-we-are/girl-redbg.svg";
+import girlSideText from "../../assets/images/who-we-are/girl-side-text.png";
+import girlWind from "../../assets/images/who-we-are/wind.png";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
 import SectionContainer from "../sectionContainer/sectionContainer";
-import bgImage from "../assets/../images/who-we-are/background.jpg";
+import bgImage from "../../assets/images/who-we-are/background.jpg";
 
 function Introduce() {
   return (

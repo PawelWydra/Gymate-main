@@ -1,7 +1,7 @@
-import training from "../assets/../images//choose-us/training.png";
-import gymbag from "../assets/../images//choose-us/gym-bag.png";
-import bottle from "../assets/../images//choose-us/bottle-of-water.png";
-import bench from "../assets/../images//choose-us/bench-press.png";
+import training from "../../assets/images//choose-us/training.png";
+import gymbag from "../../assets/images//choose-us/gym-bag.png";
+import bottle from "../../assets/images//choose-us/bottle-of-water.png";
+import bench from "../../assets/images//choose-us/bench-press.png";
 
 const fitnessObjects = {
   training: {

@@ -2,7 +2,7 @@ import "./title.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { RiTwitterXLine } from "react-icons/ri";
-import titleImage from "../assets/../images/choose-us/title-bg.svg";
+import titleImage from "../../assets/images/choose-us/title-bg.svg";
 import BtnWithRedArrow from "./btnWithRedArrow/btnWithRedArrow";
 
 function Title() {

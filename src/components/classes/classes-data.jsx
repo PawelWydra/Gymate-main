@@ -1,15 +1,15 @@
-import cycling from "../assets/../images/classes/cycling.jpg";
-import karate from "../assets/../images/classes/karate.jpg";
-import powerLifting from "../assets/../images/classes/powerlifting.jpg";
-import meditation from "../assets/../images/classes/meditation.jpg";
-import mma from "../assets/../images/classes/mma.jpg";
-import workout from "../assets/../images/classes/workout.jpg";
-import bikeIcon from "../assets/../images/features/bike-red.png";
-import karateIcon from "../assets/../images/features/karate-red.png";
-import dumbbellIcon from "../assets/../images/features/dumb-red.png";
-import meditationIcon from "../assets/../images/features/yoga-red.png";
-import mmaIcon from "../assets/../images/features/boxer-red.png";
-import workoutIcon from "../assets/../images/features/workout-red.png";
+import cycling from "../../assets/images/classes/cycling.jpg";
+import karate from "../../assets/images/classes/karate.jpg";
+import powerLifting from "../../assets/images/classes/powerlifting.jpg";
+import meditation from "../../assets/images/classes/meditation.jpg";
+import mma from "../../assets/images/classes/mma.jpg";
+import workout from "../../assets/images/classes/workout.jpg";
+import bikeIcon from "../../assets/images/features/bike-red.png";
+import karateIcon from "../../assets/images/features/karate-red.png";
+import dumbbellIcon from "../../assets/images/features/dumb-red.png";
+import meditationIcon from "../../assets/images/features/yoga-red.png";
+import mmaIcon from "../../assets/images/features/boxer-red.png";
+import workoutIcon from "../../assets/images/features/workout-red.png";
 
 const gridItems = {
   cycling: {

@@ -1,8 +1,8 @@
-import logo1 from "../../assets/../images/testimonials/logo1.png";
-import logo2 from "../../assets/../images/testimonials/logo2.png";
-import logo3 from "../../assets/../images/testimonials/logo3.png";
-import logo4 from "../../assets/../images/testimonials/logo4.png";
-import logo5 from "../../assets/../images/testimonials/logo5.png";
+import logo1 from "../../../assets/images/testimonials/logo1.png";
+import logo2 from "../../../assets/images/testimonials/logo2.png";
+import logo3 from "../../../assets/images/testimonials/logo3.png";
+import logo4 from "../../../assets/images/testimonials/logo4.png";
+import logo5 from "../../../assets/images/testimonials/logo5.png";
 
 function LogoContainer() {
   return (

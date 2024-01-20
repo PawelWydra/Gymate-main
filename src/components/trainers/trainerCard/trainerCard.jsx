@@ -1,10 +1,10 @@
-import trainerBg from "../../assets/../images/trainers/trainer-bg.png";
+import trainerBg from "../../../assets/images/trainers/trainer-bg.png";
 import AnimatedSpan from "./animatedSpan/animatedSpan.jsx";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { RiTwitterXLine } from "react-icons/ri";
 import { AiOutlineMail } from "react-icons/ai";
-import shape from "../../assets/../images/trainers/shape.png";
+import shape from "../../../assets/images/trainers/shape.png";
 import { IoIosArrowUp } from "react-icons/io";
 
 function TrainerCard({ trainer, name, specialization }) {

@@ -1,6 +1,6 @@
 .trainers-container {
   background-color: white;
-  background-image: url("../assets/../images/trainers/dot-bg.png");
+  background-image: url("../../assets/images/trainers/dot-bg.png");
   width: 100%;
   color: black;
   display: flex;

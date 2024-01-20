@@ -1,7 +1,7 @@
 .red-bg-heading-container {
   display: grid;
   place-items: center;
-  background-image: url("../../assets/../images/choose-us/title-bg.svg");
+  background-image: url("../../../assets/images/choose-us/title-bg.svg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 100%;
