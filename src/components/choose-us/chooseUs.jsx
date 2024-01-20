@@ -1,6 +1,6 @@
 import "./chooseUs.css";
 import { FaCirclePlay } from "react-icons/fa6";
-import mainImg from "../../images/choose-us/main-img.png";
+import mainImg from "../assets/../images/choose-us/main-img.png";
 import ChooseUsGridItem from "./chooseUsGridItem/chooseUsGridItem";
 import fitnessObjects from "./gridData.jsx";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
@@ -10,7 +10,11 @@ function ChooseUs() {
   return (
     <SectionContainer>
       <div className="relative lg:flex xl:justify-end">
-        <img src={mainImg} alt="" className="absolute left-0 bottom-0 hidden xl:block w-[28rem]"/>
+        <img
+          src={mainImg}
+          alt=""
+          className="absolute left-0 bottom-0 hidden xl:block w-[28rem]"
+        />
         <span className="red-span short-span hidden xl:block"></span>
         <span className="red-span long-span hidden xl:block"></span>
         <FaCirclePlay className="image-play-btn hidden xl:block" />

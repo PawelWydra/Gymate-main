@@ -1,4 +1,3 @@
-
 .introduce-card-container {
   display: flex;
   gap: 1.5rem;
@@ -17,7 +16,7 @@
 }
 
 .introduce-card:hover {
-  background-image: url("../../images/who-we-are/info-card-bg.jpg");
+  background-image: url("../assets/../images/who-we-are/info-card-bg.jpg");
   color: #fff;
 }
 

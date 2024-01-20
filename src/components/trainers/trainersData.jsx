@@ -1,6 +1,6 @@
-import johnLevis from "../../images/trainers/trainer1.png";
-import johnatanDoe from "../../images/trainers/trainer2.png";
-import anaJune from "../../images/trainers/trainer3.png";
+import johnLevis from "../assets/../images/trainers/trainer1.png";
+import johnatanDoe from "../assets/../images/trainers/trainer2.png";
+import anaJune from "../assets/../images/trainers/trainer3.png";
 
 const trainerArray = [
   {

@@ -1,9 +1,9 @@
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
 import PricingCard from "./pricingCard/pricingCard.jsx";
-import pricingBg from "../../images/pricing/background.jpg";
-import img1 from "../../images/pricing/img1.jpg";
-import img2 from "../../images/pricing/img2.jpg";
-import img3 from "../../images/pricing/img3.jpg";
+import pricingBg from "../assets/../images/pricing/background.jpg";
+import img1 from "../assets/../images/pricing/img1.jpg";
+import img2 from "../assets/../images/pricing/img2.jpg";
+import img3 from "../assets/../images/pricing/img3.jpg";
 
 const pricingData = [
   { imgSrc: img1, title: "Beginner", price: "39" },

@@ -1,5 +1,5 @@
 import "./navbar.css";
-import mainLogo from "../../images/logo/logo.svg";
+import mainLogo from "../assets/../images/logo/logo.svg";
 import { FaRegUser } from "react-icons/fa";
 import { FaChartBar } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";

@@ -1,4 +1,4 @@
-import background from "../../images/bmi/background.jpg";
+import background from "../assets/../images/bmi/background.jpg";
 import BmiCalculator from "./bmiCalculator/bmiCalculator";
 
 function Bmi() {

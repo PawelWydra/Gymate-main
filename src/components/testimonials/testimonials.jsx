@@ -1,6 +1,6 @@
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
-import quotes from "../../images/testimonials/quotes.png";
-import testimonialNew from "../../images/testimonials/testimonial-new.jpg";
+import quotes from "../assets/../images/testimonials/quotes.png";
+import testimonialNew from "../assets/../images/testimonials/testimonial-new.jpg";
 import ArrowRedBtn from "./arrowRedBtn/arrowRedBtn";
 import LogoContainer from "./logoContainer/logoContainer";
 
