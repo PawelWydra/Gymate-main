@@ -20,6 +20,7 @@ function App() {
       <Join />
       <ChooseUs />
       <TrainersAndTestimonials />
+      <hr className="border-t border-gray-300 w-full" />
       <Gallery />
       <Bmi />
       <Pricing />

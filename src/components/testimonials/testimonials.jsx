@@ -45,7 +45,6 @@ const Testimonials = () => {
         </div>
       </div>
       <LogoContainer />
-      <hr className="border-t border-gray-300 w-full" />
     </div>
   );
 };
