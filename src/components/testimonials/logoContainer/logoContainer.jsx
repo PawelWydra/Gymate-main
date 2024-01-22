@@ -6,7 +6,7 @@ import logo5 from "../../../assets/images/testimonials/logo5.png";
 
 function LogoContainer() {
   return (
-    <div className="flex justyfi-around flex-wrap max-w-6xl gap-4 py-5 my-10 ">
+    <div className="flex justify-center items-center flex-wrap max-w-6xl gap-4 py-5 my-10 ">
       <img
         src={logo1}
         alt=""
