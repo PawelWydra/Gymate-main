@@ -5,10 +5,11 @@ import ChooseUsGridItem from "./chooseUsGridItem/chooseUsGridItem";
 import fitnessObjects from "./gridData.jsx";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
 import SectionContainer from "../sectionContainer/sectionContainer.jsx";
+import bg from "../../assets/images/choose-us/choose-bg.jpg";
 
 function ChooseUs() {
   return (
-    <SectionContainer>
+    <SectionContainer bg={bg}>
       <div className="relative xl:flex justify-end">
         <img
           src={mainImg}
