@@ -12,11 +12,11 @@ function Bmi() {
 
   return (
     <div
-      className="w-full flex flex-col items-center px-4 lg:px-36"
+      className="flex px-8 md:px-16 lg:px-36 xl:px-80 2xl:px-[32rem] 3xl:px-[36rem]"
       style={bmiContainerStyle}
     >
-      <div className="max-w-5xl size-full">
-        <div className="lg:w-2/3 h-full flex flex-col justify-center gap-5">
+      <div className="flex justify-center items-center">
+        <div className="flex flex-col justify-center gap-5">
           <h1 className="text-5xl font-semibold">
             Let's Calculate Your <span className="text-red-500">BMI</span>
           </h1>
