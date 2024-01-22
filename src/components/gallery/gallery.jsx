@@ -3,6 +3,7 @@ import barbleGirl from "../../assets/images/gallery/img2.jpg";
 import linesGirl from "../../assets/images/gallery/img3.jpg";
 import absGuy from "../../assets/images/gallery/img4.jpg";
 import plankGirl from "../../assets/images/gallery/img5.jpg";
+import SectionContainer from "../sectionContainer/sectionContainer";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
 
 function Gallery() {
@@ -37,8 +38,8 @@ function Gallery() {
   };
 
   return (
-    <div className="w-full flex-col items-center bg-white p-36 hidden lg:flex">
-      <div className="max-w-6xl flex flex-col items-center gap-6">
+    <SectionContainer bg="#fff">
+      <div className="flex flex-col justify-between items-center gap-6">
         <RedBgHeading text={"GYM GALLERY"} />
         <h1 className="text-4xl font-semibold text-black">
           Our Workplace Gallery
@@ -56,7 +57,7 @@ function Gallery() {
           <div className="" style={absGuyStyle}></div>
         </div>
       </div>
-    </div>
+    </SectionContainer>
   );
 }
 
