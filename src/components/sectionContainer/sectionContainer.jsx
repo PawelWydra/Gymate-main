@@ -9,7 +9,7 @@ const SectionContainer = ({ children, bg }) => {
 
   return (
     <div style={bgContainer}>
-      <div className="flex flex-col padding-container px-10 md:px-28 lg:px-40 2xl:px-80 py-10">
+      <div className="py-8 px-4 md:px-16 lg:px-20 xl:px-32 2xl:px-64 3xl:px-80">
         {children}
       </div>
     </div>

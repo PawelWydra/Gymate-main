@@ -14,7 +14,7 @@ function TrainerCard({ trainer, name, specialization }) {
   `;
 
   return (
-    <div className="flex flex-col justify-center items-center w-full h-96 mb-5 group">
+    <div className="flex flex-col justify-center items-center h-96 mb-5 group">
       <div className="relative h-72 w-80 overflow-hidden">
         <img src={trainerBg} alt="" className="absolute h-96" />
         <img src={trainer} alt="" className={trainerClasses} />

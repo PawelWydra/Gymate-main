@@ -9,7 +9,7 @@ import SectionContainer from "../sectionContainer/sectionContainer.jsx";
 function ChooseUs() {
   return (
     <SectionContainer>
-      <div className="relative lg:flex xl:justify-end">
+      <div className="relative xl:flex justify-end">
         <img
           src={mainImg}
           alt=""

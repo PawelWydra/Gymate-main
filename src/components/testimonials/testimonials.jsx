@@ -21,10 +21,8 @@ const Testimonials = () => {
   };
 
   return (
-    <SectionContainer bg={"#fff"}>
-      <div className="mx-auto">
-        <RedBgHeading text="TESTIMONIALS" width="15rem" />
-      </div>
+    <div className="mx-auto">
+      <RedBgHeading text="TESTIMONIALS" width="15rem" />
       <div className="flex items-center justify-center max-w-6xl mt-10 md:mt-15 2xl:mt-40 border-8 border-gray-200 p-8">
         <div className="flex justify-end p-8 bg-black text-white relative">
           <img
@@ -48,7 +46,7 @@ const Testimonials = () => {
       </div>
       <LogoContainer />
       <hr className="border-t border-gray-300 w-full" />
-    </SectionContainer>
+    </div>
   );
 };
 
