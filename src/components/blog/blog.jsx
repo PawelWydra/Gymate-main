@@ -5,15 +5,16 @@ import blogData from "./blogDataModel";
 
 function Blog() {
   return (
-    <SectionContainer bg='#fff'>
-      <div className="flex flex-col items-center gap-6">
+    <SectionContainer bg="#fff">
+      <div className="flex flex-col items-center gap-6 mb-6">
         <RedBgHeading text={"LATEST BLOG"} />
         <h1 className="text-4xl font-semibold text-black">Our Recent News</h1>
-        <p className=" text-gray-500 text-center">
+        <p className=" text-gray-500 text-center max-w-lg">
           Gymat an unknown printer took a galley of type and scrambled make a
           type specimen book.
         </p>
-        <div className="flex flex-wrap justify-center gap-6 px-8">
+        </div>
+        <div className="flex flex-wrap justify-around">
           {blogData.map((blog, index) => (
             <BlogCard
               key={index}
@@ -23,7 +24,7 @@ function Blog() {
             />
           ))}
         </div>
-      </div>
+
     </SectionContainer>
   );
 }

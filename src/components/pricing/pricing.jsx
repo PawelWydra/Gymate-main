@@ -25,7 +25,7 @@ function Pricing() {
           type specimen book.
         </p>
       </div>
-      <div className="flex flex-col flex-wrap justify-center items-center md:flex-row gap-6">
+      <div className="flex flex-col flex-wrap justify-around items-center md:flex-row gap-6">
         {pricingData.map(({ imgSrc, title, price }, index) => (
           <PricingCard
             key={index}
