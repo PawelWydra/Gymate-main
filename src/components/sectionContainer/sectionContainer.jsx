@@ -9,7 +9,7 @@ const SectionContainer = ({ children, bg }) => {
 
   return (
     <div style={bgContainer}>
-      <div className="py-14 px-4 md:px-16 lg:px-20 xl:px-32 2xl:px-64 3xl:px-80">
+      <div className="max-w-[1800px] mx-auto py-14 px-4 md:px-16 lg:px-20 xl:px-32 2xl:px-64 3xl:px-80">
         {children}
       </div>
     </div>
