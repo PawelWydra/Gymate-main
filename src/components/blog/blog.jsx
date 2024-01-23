@@ -13,7 +13,7 @@ function Blog() {
           Gymat an unknown printer took a galley of type and scrambled make a
           type specimen book.
         </p>
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap justify-center gap-6 px-8">
           {blogData.map((blog, index) => (
             <BlogCard
               key={index}
