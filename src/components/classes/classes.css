@@ -11,9 +11,14 @@
   height: 50rem;
 
   @media (max-width: 1024px) {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
     grid-template-rows: auto; 
     height: fit-content;
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
   }
 }
 
