@@ -8,9 +8,6 @@ p {
   color: #fff;
   overflow: hidden;
 
-  @media (max-width: 1024px) {
-    aspect-ratio: 1/.8;
-  }
 }
 
 .image-item-wrapper:hover {
