@@ -1,23 +1,7 @@
 import SectionContainer from "../sectionContainer/sectionContainer.jsx";
 import logo from "../../assets/images/logo/logo-footer.svg";
 import SocialIcon from "./socialIcon/socialIcon.jsx";
-import {
-  FaFacebookF,
-  FaPinterestP,
-  FaYoutube,
-} from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-
-
-const socialIcons = [
-  { icon: <FaFacebookF />, name: "Facebook" },
-  { icon: <FaXTwitter />, name: "Twitter" },
-  { icon: <FaPinterestP />, name: "Pinterest" },
-  { icon: <FaYoutube />, name: "Youtube" },
-];
-
-const paragraph = `Take your health and body to the next level with our comprehensive
-program designed to help you reach your fitness goals.`;
+import { socialIcons, paragraph } from "./footerData.jsx"
 
 function Footer() {
   return (
