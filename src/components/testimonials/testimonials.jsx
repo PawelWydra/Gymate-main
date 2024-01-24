@@ -17,7 +17,7 @@ const Testimonials = () => {
       <div className="flex md:mt-16 xl:mt-40 2xl:mt-48 border-8 border-gray-200 p-8">
         <div className="flex justify-end p-8 bg-black text-white relative">
           <img
-            className="hidden lg:block absolute left-0 bottom-0 rounded-tr-[50%] min-h-full max-h-full 2xl:max-h-fit w-5/12 3xl:w-[27rem]"
+            className="hidden lg:block absolute left-0 bottom-0 rounded-tr-[50%] min-h-[30rem] 2xl:max-h-[35rem] w-5/12"
             src={testimonialNew}
             alt=""
           />
