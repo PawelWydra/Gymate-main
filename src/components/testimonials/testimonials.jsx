@@ -3,7 +3,6 @@ import quotes from "../../assets/images/testimonials/quotes.png";
 import testimonialNew from "../../assets/images/testimonials/testimonial-new.jpg";
 import ArrowRedBtn from "./arrowRedBtn/arrowRedBtn";
 import LogoContainer from "./logoContainer/logoContainer";
-import SectionContainer from "../sectionContainer/sectionContainer";
 
 const paragraphText = `I've been a member of Gymate for the past 6 months and it has
 been an amazing experience. The trainers are knowledgeable and
@@ -11,14 +10,6 @@ supportive, the equipment is top-notch, and the community of
 members is friendly and encouraging.`;
 
 const Testimonials = () => {
-  const ladyStyles = {
-    position: "absolute",
-    left: 0,
-    bottom: 0,
-    maxWidth: "35%",
-    height: "30rem",
-    borderTopRightRadius: "50%",
-  };
 
   return (
     <div className="flex flex-col items-center mt-10">
