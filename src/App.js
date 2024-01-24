@@ -28,7 +28,7 @@ function App() {
       <Pricing />
       <Blog />
       <Advertisement />
-     <Footer/>
+      <Footer />
     </div>
   );
 }
