@@ -1,3 +1,4 @@
+import Advertisement from "./components/advertisement/advertisement";
 import Blog from "./components/blog/blog";
 import Bmi from "./components/bmi/bmi";
 import ChooseUs from "./components/choose-us/chooseUs";
@@ -25,7 +26,7 @@ function App() {
       <Bmi />
       <Pricing />
       <Blog />
-      <section>advertisment</section>
+      <Advertisement />
       <section>footer</section>
     </div>
   );

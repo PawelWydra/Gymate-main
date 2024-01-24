@@ -14,7 +14,7 @@ function Blog() {
           type specimen book.
         </p>
         </div>
-        <div className="flex flex-wrap justify-around">
+        <div className="flex flex-wrap justify-center gap-5">
           {blogData.map((blog, index) => (
             <BlogCard
               key={index}
