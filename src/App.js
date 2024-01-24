@@ -3,6 +3,7 @@ import Blog from "./components/blog/blog";
 import Bmi from "./components/bmi/bmi";
 import ChooseUs from "./components/choose-us/chooseUs";
 import Classes from "./components/classes/classes";
+import Footer from "./components/footer/footer";
 import Gallery from "./components/gallery/gallery";
 import Introduce from "./components/introduce/introduce.jsx";
 import Join from "./components/join/join";
@@ -27,7 +28,7 @@ function App() {
       <Pricing />
       <Blog />
       <Advertisement />
-      <section>footer</section>
+     <Footer/>
     </div>
   );
 }
