@@ -29,6 +29,8 @@ function BmiCalculator() {
       setBmi(null);
       setBmiCategory("");
     }
+    setWeight("");
+    setHeight("")
   };
 
   return (
