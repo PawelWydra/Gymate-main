@@ -1,10 +1,14 @@
 .introduce-card-container {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
   margin-top: -5rem;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .introduce-card {
+  min-width: 20rem;
+  max-width: 25rem;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -13,6 +17,7 @@
   padding: 4rem 1rem;
   box-shadow: -6px 23px 71px -40px rgba(66, 68, 90, 1);
   border-radius: 3rem 0;
+  flex: 1 1 0;
 }
 
 .introduce-card:hover {
