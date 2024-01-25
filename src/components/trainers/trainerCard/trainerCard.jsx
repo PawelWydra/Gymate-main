@@ -1,12 +1,11 @@
-import trainerBg from "../../../images/trainers/trainer-bg.png";
+import trainerBg from "../../../assets/images/trainers/trainer-bg.png";
 import AnimatedSpan from "./animatedSpan/animatedSpan.jsx";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { RiTwitterXLine } from "react-icons/ri";
 import { AiOutlineMail } from "react-icons/ai";
-import shape from "../../../images/trainers/shape.png";
+import shape from "../../../assets/images/trainers/shape.png";
 import { IoIosArrowUp } from "react-icons/io";
-
 
 function TrainerCard({ trainer, name, specialization }) {
   const trainerClasses = `
@@ -15,9 +14,9 @@ function TrainerCard({ trainer, name, specialization }) {
   `;
 
   return (
-    <div className="flex flex-col justify-center items-center w-full h-96 mb-5 group">
-      <div className="relative h-72 w-80 overflow-hidden">
-        <img src={trainerBg} alt="" className="absolute h-96" />
+    <div className="flex flex-col justify-center items-center w-[20rem] h-96 mb-5 group">
+      <div className="relative h-72 w-full overflow-hidden">
+        <img src={trainerBg} alt="" className="absolute h-96 w-full" />
         <img src={trainer} alt="" className={trainerClasses} />
       </div>
       <div className="flex flex-col justify-center items-center w-full h-40 gap-2 bg-white shadow-lg shadow-black/20 relative">
@@ -30,7 +29,7 @@ function TrainerCard({ trainer, name, specialization }) {
           <AiOutlineMail className="w-4 h-4" />
         </div>
         <img src={shape} alt="" className="absolute bottom-32 h-8" />
-        <IoIosArrowUp  className="absolute bottom-32 text-2xl"/>
+        <IoIosArrowUp className="absolute bottom-32 text-2xl" />
         <AnimatedSpan />
       </div>
     </div>

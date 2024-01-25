@@ -2,19 +2,21 @@ import "./introduce.css";
 import { GiProgression } from "react-icons/gi";
 import { FaRunning } from "react-icons/fa";
 import { TbListCheck } from "react-icons/tb";
-import weightLifter from "../../images/who-we-are/weightlifter.png";
-import equipment from "../../images/who-we-are/equpments.png";
-import machines from "../../images/who-we-are/gym.png";
-import girl from "../../images/who-we-are/girl-run.png";
-import girlBackground from "../../images/who-we-are/girl-redbg.svg";
-import girlSideText from "../../images/who-we-are/girl-side-text.png";
-import girlWind from "../../images/who-we-are/wind.png";
+import weightLifter from "../../assets/images/who-we-are/weightlifter.png";
+import equipment from "../../assets/images/who-we-are/equpments.png";
+import machines from "../../assets/images/who-we-are/gym.png";
+import girl from "../../assets/images/who-we-are/girl-run.png";
+import girlBackground from "../../assets/images/who-we-are/girl-redbg.svg";
+import girlSideText from "../../assets/images/who-we-are/girl-side-text.png";
+import girlWind from "../../assets/images/who-we-are/wind.png";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
+import SectionContainer from "../sectionContainer/sectionContainer";
+import bgImage from "../../assets/images/who-we-are/background.jpg";
 
 function Introduce() {
   return (
-    <section className="introduce-container">
-      <article className="introduce-card-container">
+    <SectionContainer bg={bgImage}>
+      <article className="introduce-card-container text-black">
         <div className="introduce-card">
           <GiProgression className="introduce-card-icon" />
           <h2 className="text-2xl py-4 font-bold">PROGRESSION</h2>
@@ -40,10 +42,10 @@ function Introduce() {
           </p>
         </div>
       </article>
-      <article className="introduce-info-container py-20">
+      <article className="introduce-info-container text-black">
         <div className="info-text-container">
           <header>
-            <RedBgHeading text={"WHO WE ARE"} width="15rem"/>
+            <RedBgHeading text={"WHO WE ARE"} width="15rem" />
             <h1 className="text-4xl font-bold pt-8">
               Take Your Health And Body To The Next Level
             </h1>
@@ -90,7 +92,7 @@ function Introduce() {
           <img src={girlWind} alt="" className="wind-img" />
         </div>
       </article>
-    </section>
+    </SectionContainer>
   );
 }
 

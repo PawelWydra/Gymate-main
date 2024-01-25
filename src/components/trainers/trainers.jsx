@@ -1,22 +1,24 @@
-import "./trainers.css";
 import TrainerCard from "./trainerCard/trainerCard.jsx";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
 import Testimonials from "../testimonials/testimonials.jsx";
 import trainerArray from "./trainersData";
+import SectionContainer from "../sectionContainer/sectionContainer";
 
 function TrainersAndTestimonials() {
   return (
-    <div className="trainers-container flex flex-col">
-      <div className="trainers-wrapper my-24 text-center">
-        <RedBgHeading text={"GYM TRAINERS"} />
-        <h1 className="text-4xl font-semibold max-w-lg">
-          Team Of Expert Coaches
-        </h1>
-        <p className="max-w-lg text-gray-500">
-          Expert team of coaches helps you succeed in any goal, personalized
-          guidance and motivation provided!
-        </p>
-        <div className="flex flex-col gap-16 md:flex-row">
+    <SectionContainer bg="#fff">
+      <div className="text-black text-center">
+        <div className="flex flex-col items-center gap-4 mb-10">
+          <RedBgHeading text={"GYM TRAINERS"} />
+          <h1 className="text-4xl font-semibold max-w-lg">
+            Team Of Expert Coaches
+          </h1>
+          <p className="max-w-lg text-gray-500">
+            Expert team of coaches helps you succeed in any goal, personalized
+            guidance and motivation provided!
+          </p>
+        </div>
+        <div className="flex flex-col justify-around gap-4 items-center md:flex-row  flex-wrap">
           {trainerArray.map((trainer, index) => (
             <TrainerCard
               key={index}
@@ -28,7 +30,7 @@ function TrainersAndTestimonials() {
         </div>
       </div>
       <Testimonials />
-    </div>
+    </SectionContainer>
   );
 }
 

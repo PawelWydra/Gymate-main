@@ -1,19 +1,20 @@
-import "./join.css";
-import BtnWithRightArrow from '../title/btnWithRedArrow/btnWithRedArrow.jsx';
+import BtnWithRightArrow from "../title/btnWithRedArrow/btnWithRedArrow.jsx";
+import SectionContainer from "../sectionContainer/sectionContainer";
+import bg from "../../assets/images/features/cta-bg.png";
 
 function Join() {
   return (
-    <div className="join-container">
-      <div className="join-wrapper">
-        <div className="text-4xl font-semibold w-3/5">
-          <h1 className="ml-10">
+    <SectionContainer bg={bg}>
+      <div className="flex justify-around items-center max-w-5xl min-h-28">
+        <div className="text-xl sm:text-3xl lg:text-4xl font-semibold">
+          <h1 className="">
             We Are Always Providing Best
             <br /> Fitness Service For You
           </h1>
         </div>
         <BtnWithRightArrow text={"JOIN WITH US"} />
       </div>
-    </div>
+    </SectionContainer>
   );
 }
 

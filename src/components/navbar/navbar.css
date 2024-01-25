@@ -1,28 +1,17 @@
 .navbar-container {
+  background:transparent ;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 98%;
-  padding: 0.25rem;
-  margin-top: 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .navbar-menu {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-direction: row;
 }
 
-.navbar-menu ul {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
 .navbar-menu ul li {
   font-size: 1.1rem;

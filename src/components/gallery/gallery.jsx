@@ -1,8 +1,9 @@
-import boxingGirl from "../../images/gallery/img1.jpg";
-import barbleGirl from "../../images/gallery/img2.jpg";
-import linesGirl from "../../images/gallery/img3.jpg";
-import absGuy from "../../images/gallery/img4.jpg";
-import plankGirl from "../../images/gallery/img5.jpg";
+import boxingGirl from "../../assets/images/gallery/img1.jpg";
+import barbleGirl from "../../assets/images/gallery/img2.jpg";
+import linesGirl from "../../assets/images/gallery/img3.jpg";
+import absGuy from "../../assets/images/gallery/img4.jpg";
+import plankGirl from "../../assets/images/gallery/img5.jpg";
+import SectionContainer from "../sectionContainer/sectionContainer";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
 
 function Gallery() {
@@ -37,8 +38,8 @@ function Gallery() {
   };
 
   return (
-    <div className="w-full flex flex-col items-center bg-white p-36">
-      <div className="max-w-6xl flex flex-col items-center gap-6">
+    <SectionContainer bg="#fff">
+      <div className="flex flex-col justify-between items-center gap-6">
         <RedBgHeading text={"GYM GALLERY"} />
         <h1 className="text-4xl font-semibold text-black">
           Our Workplace Gallery
@@ -48,10 +49,7 @@ function Gallery() {
           fun culture. Attracts talents and showcases the company's work
           atmosphere.
         </p>
-        <div
-          className="w-full grid grid-rows-2 grid-cols-4 gap-2"
-          style={{ height: "40rem" }}
-        >
+        <div className="w-full h-[40rem] grid grid-rows-2 grid-cols-4 gap-2">
           <div className="col-span-2 row-span-2" style={boxingGirlStyle}></div>
           <div className="col-span-2" style={barbleGirlStyle}></div>
           <div className="col-span-2 row-span-2" style={plankGirlStyle}></div>
@@ -59,7 +57,7 @@ function Gallery() {
           <div className="" style={absGuyStyle}></div>
         </div>
       </div>
-    </div>
+    </SectionContainer>
   );
 }
 

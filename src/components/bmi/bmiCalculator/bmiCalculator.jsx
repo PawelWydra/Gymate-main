@@ -29,10 +29,12 @@ function BmiCalculator() {
       setBmi(null);
       setBmiCategory("");
     }
+    setWeight("");
+    setHeight("")
   };
 
   return (
-    <div className="grid grid-cols-2 gap-4 w-4/5">
+    <div className="grid grid-cols-2 gap-4">
       <input
         type="text"
         placeholder="Weight / kg"

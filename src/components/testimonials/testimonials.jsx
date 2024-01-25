@@ -1,35 +1,31 @@
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
-import quotes from "../../images/testimonials/quotes.png";
-import testimonialNew from "../../images/testimonials/testimonial-new.jpg";
+import quotes from "../../assets/images/testimonials/quotes.png";
+import testimonialNew from "../../assets/images/testimonials/testimonial-new.jpg";
 import ArrowRedBtn from "./arrowRedBtn/arrowRedBtn";
 import LogoContainer from "./logoContainer/logoContainer";
 
-const paragraphText = `"I've been a member of Gymate for the past 6 months and it has
+const paragraphText = `I've been a member of Gymate for the past 6 months and it has
 been an amazing experience. The trainers are knowledgeable and
 supportive, the equipment is top-notch, and the community of
-members is friendly and encouraging."`;
+members is friendly and encouraging.`;
 
 const Testimonials = () => {
-  const ladyStyles = {
-    position: "absolute",
-    left: 0,
-    bottom: 0,
-    maxWidth: "35%",
-    height: "30rem",
-    borderTopRightRadius: "50%",
-  };
 
   return (
-    <div className="flex flex-col items-center mt-20 w-full">
+    <div className="flex flex-col items-center mt-10">
       <RedBgHeading text="TESTIMONIALS" width="15rem" />
-      <div className="flex items-center justify-center max-w-6xl mt-40 border-8 border-gray-200 p-8">
-        <div className="flex justify-end size-max p-8 bg-black text-white relative">
-          <img src={testimonialNew} alt="" style={ladyStyles} />
-          <div className="w-7/12 h-2/3 flex flex-col">
+      <div className="flex md:mt-16 xl:mt-40 2xl:mt-48 border-8 border-gray-200 p-8">
+        <div className="flex justify-end p-8 bg-black text-white relative">
+          <img
+            className="hidden lg:block absolute left-0 bottom-0 rounded-tr-[50%] min-h-[30rem] 2xl:max-h-[35rem] w-5/12"
+            src={testimonialNew}
+            alt=""
+          />
+          <div className="lg:w-6/12 h-2/3 flex flex-col">
             <img src={quotes} alt="" className="size-16" />
-            <p className="w-10/12 my-4 text-lg font-thin italic text-gray-300">
+            <q className="w-10/12 my-4 text-lg font-thin italic text-gray-300">
               {paragraphText}
-            </p>
+            </q>
             <h1 className="text-2xl font-semibold">Harry Potter</h1>
             <p className="font-thin text-sm">CEO of Hogwarts</p>
           </div>
@@ -40,7 +36,6 @@ const Testimonials = () => {
         </div>
       </div>
       <LogoContainer />
-      <hr className="border-t border-gray-300 w-full" />
     </div>
   );
 };
