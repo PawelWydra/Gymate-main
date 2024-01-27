@@ -15,9 +15,9 @@ import CardContainer from "./CardContainer";
 function Introduce() {
   return (
     <SectionContainer bg={bgImage}>
-      <CardContainer/>
-      <article className="flex justify-center text-black flex-1">
-        <div className="info-text-container lg:max-w-[40%] flex-1">
+      <CardContainer />
+      <article className="flex justify-center text-black flex-1 pb-20">
+        <div className="info-text-container  flex-1">
           <header>
             <RedBgHeading text={"WHO WE ARE"} width="15rem" />
             <h1 className="text-4xl font-bold pt-8">
@@ -55,26 +55,26 @@ function Introduce() {
             TAKE A TOUR
           </button>
         </div>
-        <div className="hidden lg:block relative flex-1 min-w-[50%]">
+        <div className="hidden lg:block relative flex-1">
           <img
             src={girl}
             alt="Girl running"
-            className="absolute h-auto lg:max-w-[32rem] xl:max-w-[35rem] left-[5rem] lg:top-[25%] xl:top-[20%] z-10"
+            className="absolute h-auto top-[62%] right-[40%] translate-x-1/2 -translate-y-1/2  z-10"
           />
           <img
             src={girlBackground}
             alt=""
-            className="absolute h-auto max-w-max top-[20%] left-[17rem]"
+            className="absolute h-auto w-[45%] right-[32%] top-[69%] translate-x-1/2 -translate-y-1/2"
           />
           <img
             src={girlSideText}
             alt=""
-            className="absolute h-auto max-w-max left-20 top-[20%]"
+            className="absolute h-auto left-[5%] top-[70%] translate-x-1/2 -translate-y-1/2"
           />
           <img
             src={girlWind}
             alt=""
-            className="absolute h-auto max-w-max left-[23rem] top-[20rem]"
+            className="absolute h-auto w-[15%] right-[30%] top-[62%] translate-x-1/2 -translate-y-1/2"
           />
         </div>
       </article>
