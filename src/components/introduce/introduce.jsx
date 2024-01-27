@@ -16,11 +16,11 @@ function Introduce() {
   return (
     <SectionContainer bg={bgImage}>
       <CardContainer />
-      <article className="flex justify-center text-black flex-1 pb-20">
-        <div className="info-text-container  flex-1">
-          <header>
+      <article className="flex justify-center text-black flex-1 xl:pb-20">
+        <div className="info-text-container items-center xl:items-start  xl:max-w-[50%]">
+          <header className="flex flex-col items-center xl:items-start">
             <RedBgHeading text={"WHO WE ARE"} width="15rem" />
-            <h1 className="text-4xl font-bold pt-8">
+            <h1 className="text-3xl lg:text-4xl font-bold pt-8">
               Take Your Health And Body To The Next Level
             </h1>
           </header>
@@ -55,7 +55,7 @@ function Introduce() {
             TAKE A TOUR
           </button>
         </div>
-        <div className="hidden lg:block relative flex-1">
+        <div className="hidden xl:block relative flex-1">
           <img
             src={girl}
             alt="Girl running"
@@ -64,7 +64,7 @@ function Introduce() {
           <img
             src={girlBackground}
             alt=""
-            className="absolute h-auto w-[45%] right-[32%] top-[69%] translate-x-1/2 -translate-y-1/2"
+            className="absolute h-auto w-[45%] right-[32%] top-[65.5%] translate-x-1/2 -translate-y-1/2"
           />
           <img
             src={girlSideText}
