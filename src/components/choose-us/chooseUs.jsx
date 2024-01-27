@@ -24,7 +24,7 @@ function ChooseUs() {
           <h1 className="text-4xl font-semibold py-1 leading-tight">
             We Can Give A Shape Of <br /> Your Body Here!
           </h1>
-          <p>
+          <p className="max-w-lg text-pretty">
             At <strong>Gymate</strong>, we are dedicated to helping you achieve
             the body of your dreams. Our expert trainers and nutritionists will
             work with you to create a personalized fitness and nutrition plan

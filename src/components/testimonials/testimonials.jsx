@@ -14,7 +14,7 @@ const Testimonials = () => {
   return (
     <div className="flex flex-col items-center mt-10">
       <RedBgHeading text="TESTIMONIALS" width="15rem" />
-      <div className="flex md:mt-16 xl:mt-40 2xl:mt-48 border-8 border-gray-200 p-8">
+      <div className="flex mt-8 md:mt-16 xl:mt-40 2xl:mt-48 border-8 border-gray-200 p-8">
         <div className="flex justify-end p-8 bg-black text-white relative">
           <img
             className="hidden lg:block absolute left-0 bottom-0 rounded-tr-[50%] min-h-[30rem] 2xl:max-h-[35rem] w-5/12"
