@@ -5,6 +5,8 @@ import absGuy from "../../assets/images/gallery/img4.jpg";
 import plankGirl from "../../assets/images/gallery/img5.jpg";
 import SectionContainer from "../sectionContainer/sectionContainer";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
+import { motion } from "framer-motion";
+
 
 function Gallery() {
   const boxingGirlStyle = {
@@ -38,7 +40,13 @@ function Gallery() {
   };
 
   return (
+
     <SectionContainer bg="#fff">
+          <motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}
+/>
       <div className="flex flex-col justify-between items-center gap-6">
         <RedBgHeading text={"GYM GALLERY"} />
         <h1 className="text-4xl font-semibold text-black">
@@ -57,7 +65,9 @@ function Gallery() {
           <div className="" style={absGuyStyle}></div>
         </div>
       </div>
+      
     </SectionContainer>
+
   );
 }
 

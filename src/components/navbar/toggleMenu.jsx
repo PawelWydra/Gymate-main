@@ -1,6 +1,7 @@
 import { IoCloseSharp } from "react-icons/io5";
 import { menuItems } from "./navData";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 function ToggleMenu(props) {
   const handleEscKey = (event) => {
@@ -20,8 +21,11 @@ function ToggleMenu(props) {
     }
   };
   return (
-    <div
-      className="fixed h-screen w-screen bg-black bg-opacity-80 text-black z-50 flex justify-center items-center"
+    <motion.div
+      initial={{ x: "-100%" }}
+      animate={{ x: props.isToggle ? "0%" : "-100%" }}
+      transition={{ ease: "easeOut", duration: 0.5 }}
+      className="fixed top-0 left-0 h-screen w-screen bg-black bg-opacity-40 text-black z-50 flex justify-center items-center"
       onClick={handleClickOutside}
     >
       <div className="relative bg-white flex justify-center min-w-96 p-5 rounded-lg	">
@@ -39,7 +43,7 @@ function ToggleMenu(props) {
           onClick={props.closeMenu}
         />
       </div>
-    </div>
+    </motion.div>
   );
 }
 

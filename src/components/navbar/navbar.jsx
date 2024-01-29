@@ -34,9 +34,7 @@ function Navbar() {
     };
   }, []);
 
-  return isToggle ? (
-    <ToggleMenu closeMenu={toggleMenu}/>
-  ) : (
+  return (
     <div
       className={`navbar-container fixed w-full ${
         isScrolled ? "bg-black" : ""
@@ -63,6 +61,9 @@ function Navbar() {
           <h1 className="hidden text-nowrap md:block">JOIN CLASS NOW</h1>
         </div>
       </div>
+
+        <ToggleMenu closeMenu={toggleMenu} isToggle={isToggle}/>
+  
     </div>
   );
 }
