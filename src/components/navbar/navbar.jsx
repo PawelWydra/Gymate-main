@@ -5,14 +5,17 @@ import { FaRegUser } from "react-icons/fa";
 import { FaChartBar } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
+import ToggleMenu from "./toggleMenu";
+import { menuItems } from "./navData";
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
-  
+  const [isToggle, setToogle] = useState(false);
+
   useEffect(() => {
     function handleScroll() {
       const scrollPosition = window.scrollY;
-      const triggerPosition = window.innerHeight * 0.9; // 90vh
+      const triggerPosition = window.innerHeight * 0.9;
 
       if (scrollPosition > triggerPosition) {
         setIsScrolled(true);
@@ -27,18 +30,11 @@ function Navbar() {
     };
   }, []);
 
-  const menuItems = [
-    "Home",
-    "About",
-    "Gallery",
-    "Schedule",
-    "Blog",
-    "Pricing",
-    "Classes",
-    "Contact",
-  ];
 
-  return (
+
+  return isToggle ? (
+    <ToggleMenu />
+  ) : (
     <div
       className={`navbar-container fixed w-full ${
         isScrolled ? "bg-black" : ""
