@@ -26,10 +26,10 @@ function ToggleMenu(props) {
       initial={{ x: "-100%" }}
       animate={{ x: props.isToggle ? "0%" : "-100%" }}
       transition={{ ease: "easeOut", duration: 0.5 }}
-      className="fixed top-0 left-0 h-screen w-screen bg-black bg-opacity-40 text-black z-50 flex justify-center items-center"
+      className="fixed top-0 left-0 h-screen w-screen bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg backdrop-saturate-150 text-black z-50 flex justify-center items-center"
       onClick={handleClickOutside}
     >
-      <div className="relative bg-white flex justify-center min-w-96 p-5 rounded-lg	">
+      <div className="relative text-white flex justify-center min-w-96 p-5 rounded-lg	">
         <ul className="flex flex-col text-2xl text-center gap-4 py-10">
           {menuItems.map((item, index) => (
             <li key={index} className="">
