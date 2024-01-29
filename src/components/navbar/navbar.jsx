@@ -35,7 +35,7 @@ function Navbar() {
   }, []);
 
   return isToggle ? (
-    <ToggleMenu  closeMenu={toggleMenu}/>
+    <ToggleMenu closeMenu={toggleMenu}/>
   ) : (
     <div
       className={`navbar-container fixed w-full ${

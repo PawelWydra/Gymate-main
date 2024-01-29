@@ -35,7 +35,7 @@ function ToggleMenu(props) {
         <IoCloseSharp
           fill="red"
           size={40}
-          className="absolute top-1 right-1"
+          className="absolute top-1 right-1 cursor-pointer"
           onClick={props.closeMenu}
         />
       </div>
