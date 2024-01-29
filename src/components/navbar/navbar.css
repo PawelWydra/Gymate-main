@@ -1,9 +1,8 @@
 .navbar-container {
-  background:transparent ;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
 }
 
 .navbar-menu {
@@ -15,12 +14,12 @@
 
 .navbar-menu ul li {
   font-size: 1.1rem;
-  padding-inline: 1rem;
 }
 
 .navbar-login {
   display: flex;
   align-items: center;
+  justify-content: end;
 }
 
 .navbar-login > * {

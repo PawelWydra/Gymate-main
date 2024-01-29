@@ -1,13 +1,11 @@
 .title-container {
   height: 90vh;
-  width: 100%;
   background-color: black;
   background-image: url("../../assets/images/hero/hero-img.jpg");
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
 }
 
@@ -15,8 +13,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 40%;
-  margin-right: 3rem;
   gap: 2rem;
 }
 .title-item {
@@ -49,12 +45,6 @@
   -webkit-filter: brightness(0) invert(1);
 }
 
-.title-social {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  gap: 1rem;
-}
 
 .red-line {
   width: 0.25rem;
