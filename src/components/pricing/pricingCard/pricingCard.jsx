@@ -10,7 +10,7 @@ function PricingCard({ imgSrc, title, price }) {
   ];
 
   return (
-    <div className="shadow-2xl">
+    <div className="shadow-2xl flex-1 min-w-80 max-w-[27rem]">
       <div className="relative group">
         <img
           src={imgSrc}
@@ -23,7 +23,7 @@ function PricingCard({ imgSrc, title, price }) {
           </h2>
         </div>
       </div>
-      <div className="h-2/3 flex flex-col items-center gap-3 p-4 text-black bg-white">
+      <div className="flex flex-col items-center gap-3 p-4 text-black bg-white">
         <h1 className="relative text-5xl font-bold font-sans mb-4">
           <span className="absolute top-0 right-16 text-3xl font-thin text-gray-400">
             $

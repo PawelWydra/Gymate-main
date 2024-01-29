@@ -7,7 +7,7 @@ function ChooseUsGridItem(props) {
       <div className="chooseUs-icon-container">
         <img src={props.icon} alt="" />
       </div>
-      <h3 className="w-32">{props.description}</h3>
+      <h3 className="w-32 self-center">{props.description}</h3>
     </div>
   );
 }
