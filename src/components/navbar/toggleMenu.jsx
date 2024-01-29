@@ -4,8 +4,9 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 
 function ToggleMenu(props) {
+  // key Code 27 is esc, works only if menu is visable.
   const handleEscKey = (event) => {
-    if (event.keyCode === 27) props.closeMenu();
+    if (event.keyCode === 27 && props.isToggle) props.closeMenu();
   };
 
   useEffect(() => {

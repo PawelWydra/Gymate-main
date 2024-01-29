@@ -50,15 +50,15 @@ function Navbar() {
           </li>
         ))}
       </ul>
-      <div className="navbar-login flex-1">
-        <GiHamburgerMenu size={30} className="lg:hidden" onClick={toggleMenu} />
-        <FaRegUser className="login-icon-item" />
-        <FaChartBar className="login-icon-item" />
-        <div className="login-join-class">
+      <div className="navbar-login cursor-pointer flex-1">
+        <GiHamburgerMenu size={20} className="lg:hidden hover:text-red-600 duration-300" onClick={toggleMenu} />
+        <FaRegUser className="login-icon-item hover:text-red-600 duration-300" />
+        <FaChartBar className="login-icon-item hover:text-red-600 duration-300" />
+        <div className="login-join-class ">
           <div className="login-plus">
             <FaPlus />
           </div>
-          <h1 className="hidden text-nowrap md:block">JOIN CLASS NOW</h1>
+          <h1 className="hidden text-nowrap md:block ">JOIN CLASS NOW</h1>
         </div>
       </div>
 

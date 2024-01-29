@@ -14,7 +14,7 @@ function Title() {
             <img src={titleImage} alt="" className="title-image bottom-0 absolute" />
             <p className="bottom-1 left-6 absolute z-10 text-black">FIND YOUR ENERGY</p>
           </div>
-          <h1 className=" text-6xl lg:text-5xl leading-snug text-center md:text-left font-semibold">
+          <h1 className=" text-6xl leading-snug text-center md:text-left font-semibold lg:mr-40">
             MAKE YOUR BODY
             <br />
             <span className="font-[300]  md:text-right">FIT & PERFECT</span>
