@@ -20,7 +20,7 @@ function Introduce() {
         <div className="info-text-container items-center xl:items-start  xl:max-w-[50%]">
           <header className="flex flex-col items-center xl:items-start">
             <RedBgHeading text={"WHO WE ARE"} width="15rem" />
-            <h1 className="text-3xl lg:text-4xl font-bold pt-8">
+            <h1 className="text-center md:text-left text-3xl lg:text-4xl font-bold pt-8">
               Take Your Health And Body To The Next Level
             </h1>
           </header>

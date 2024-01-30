@@ -9,7 +9,7 @@ function Classes() {
     <SectionContainer bg="#fff">
       <div className="flex flex-col items-center text-black text-balance">
         <RedBgHeading text={"OUR FEATURED CLASS"} width="20rem" />
-        <h1 className=" text-2xl sm:text-3xl lg:text-4xl font-semibold my-6 mx-auto">
+        <h1 className="text-center md:text-left text-2xl sm:text-3xl lg:text-4xl font-semibold my-6 mx-auto">
           We Are Offering Best Flexible Classes
         </h1>
       </div>

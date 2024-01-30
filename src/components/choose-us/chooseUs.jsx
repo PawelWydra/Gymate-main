@@ -21,7 +21,7 @@ function ChooseUs() {
         <FaCirclePlay className="image-play-btn hidden xl:block" />
         <div className="xl:w-1/2 flex flex-col items-center xl:items-start gap-6">
           <RedBgHeading text={"WHY CHOOSE US"} />
-          <h1 className="text-4xl font-semibold py-1 leading-tight">
+          <h1 className="text-center md:text-left text-4xl font-semibold py-1 leading-tight">
             We Can Give A Shape Of <br /> Your Body Here!
           </h1>
           <p className="max-w-lg text-pretty">
@@ -30,7 +30,7 @@ function ChooseUs() {
             work with you to create a personalized fitness and nutrition plan
             that helps you reach your specific goals.
           </p>
-          <div className="chooseUs-grid-container">
+          <div className="chooseUs-grid-container self-center md:self-auto">
             {Object.values(fitnessObjects).map((item, index) => (
               <ChooseUsGridItem
                 key={index}

@@ -39,14 +39,9 @@ function Gallery() {
 
   return (
     <SectionContainer bg="#fff">
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-      />
       <div className="flex flex-col justify-between items-center gap-6">
         <RedBgHeading text={"GYM GALLERY"} />
-        <h1 className="text-4xl font-semibold text-black">
+        <h1 className="text-center md:text-left text-4xl font-semibold text-black">
           Our Workplace Gallery
         </h1>
         <p className="w-8/12 text-gray-500 text-center">

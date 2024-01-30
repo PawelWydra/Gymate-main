@@ -17,7 +17,7 @@ function Pricing() {
     <SectionContainer bg={pricingBg}>
       <div className="flex flex-col items-center gap-4">
         <RedBgHeading text={"PRICING CHART"} />
-        <h1 className="text-4xl font-semibold text-black">
+        <h1 className="text-center md:text-left text-4xl font-semibold text-black">
           Exclusive Pricing Plan
         </h1>
         <p className="text-gray-500 text-center mb-10">
