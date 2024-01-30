@@ -9,7 +9,7 @@ function Section({ children }) {
     <section ref={ref} className="">
       <div
         style={{
-          transform: isInView ? "none" : "translateY(-200px)",
+          transform: isInView ? "none" : "translateY(200px)",
           opacity: isInView ? 1 : 0,
           transition: "all ease-in-out 0.7s",
         }}
