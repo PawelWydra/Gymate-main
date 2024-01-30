@@ -54,7 +54,7 @@ function Introduce() {
           <button className="introduce-btn mt-8" aria-label="Take a Tour">
             TAKE A TOUR
           </button>
-        </div>
+        </div>  
         <div className="hidden xl:block relative flex-1">
           <img
             src={girl}

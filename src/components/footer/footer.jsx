@@ -2,11 +2,13 @@ import SectionContainer from "../sectionContainer/sectionContainer.jsx";
 import logo from "../../assets/images/logo/logo-footer.svg";
 import SocialIcon from "./socialIcon/socialIcon.jsx";
 import { socialIcons, paragraph } from "./footerData.jsx";
+import Section from "../animatedSection/animatedSection.jsx";
 
 function Footer() {
   return (
     <SectionContainer bg="#fff">
-      <div className="py-10 flex flex-col justify-between md:flex-row gap-10 text-gray-500 tracking-wide font-sans">
+      <Section>
+      <div className="flex flex-col justify-between md:flex-row gap-10 text-gray-500 tracking-wide font-sans">
         <div className="flex flex-col items-center md:items-start gap-3 flex-[3_3] ">
           <img className="w-1/2 lg:w-1/3 min-w-[15rem]" src={logo} alt="" />
           <p className="max-w-[25rem]">{paragraph}</p>
@@ -43,6 +45,7 @@ function Footer() {
           <p className="font-bold">Sunday - Closed</p>
         </div>
       </div>
+      </Section>
     </SectionContainer>
   );
 }
