@@ -19,9 +19,8 @@ function Navbar() {
   useEffect(() => {
     function handleScroll() {
       const scrollPosition = window.scrollY;
-      const triggerPosition = window.innerHeight * 0.9;
 
-      if (scrollPosition > triggerPosition) {
+      if (scrollPosition > 0) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -36,14 +35,14 @@ function Navbar() {
 
   return (
     <div
-      className={`navbar-container fixed w-full ${
+      className={`navbar-container fixed w-full py-6 px-2 md:px-4 ${
         isScrolled ? "bg-black" : ""
       } z-50 transition duration-300 ease-in-out`}
     >
       <div className="flex-1">
         <img src={mainLogo} alt="logo" />
       </div>
-      <ul className="hidden lg:flex flex-[2_2] max-w-3xl justify-around">
+      <ul className="hidden lg:flex flex-[1_0] min-w-[32rem] max-w-3xl justify-around">
         {menuItems.map((item, index) => (
           <li key={index} className="">
             {item}
