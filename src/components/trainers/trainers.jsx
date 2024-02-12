@@ -3,7 +3,7 @@ import RedBgHeading from "../title/redBgHeading/redBgHeading";
 import Testimonials from "../testimonials/testimonials.jsx";
 import trainerArray from "./trainersData";
 import SectionContainer from "../sectionContainer/sectionContainer";
-import bg from "../../assets/images/trainers/dot-bg.png";
+
 function TrainersAndTestimonials() {
   return (
     <SectionContainer bg="#fff">

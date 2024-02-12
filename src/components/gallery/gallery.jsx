@@ -2,9 +2,10 @@ import boxingGirl from "../../assets/images/gallery/img1.jpg";
 import barbleGirl from "../../assets/images/gallery/img2.jpg";
 import linesGirl from "../../assets/images/gallery/img3.jpg";
 import absGuy from "../../assets/images/gallery/img4.jpg";
-import plankGirl from "../../assets/images/gallery/img5.jpg";import SectionContainer from "../sectionContainer/sectionContainer";
+import plankGirl from "../../assets/images/gallery/img5.jpg";
+import SectionContainer from "../sectionContainer/sectionContainer";
 import RedBgHeading from "../title/redBgHeading/redBgHeading";
-import { motion } from "framer-motion";
+
 
 function Gallery() {
   const boxingGirlStyle = {

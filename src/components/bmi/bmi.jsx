@@ -10,9 +10,7 @@ function Bmi() {
   };
 
   return (
-    <div
-      style={bmiContainerStyle}
-    >
+    <div style={bmiContainerStyle}>
       <div className="max-w-[1800px] mx-auto py-14 px-4 md:px-16 lg:px-20 xl:px-32 2xl:px-64 3xl:px-80">
         <div className="flex flex-col justify-center gap-5 md:w-[35rem]">
           <h1 className="text-5xl font-semibold">
